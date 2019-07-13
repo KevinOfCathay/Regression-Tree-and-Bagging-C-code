@@ -33,8 +33,20 @@ public:
 		}
 		return Batched;
 	}
-private:
 
+
+	static vector<vector<Point>> BootstapBatch(vector<Point> original_data, int bootstap_size, int batch_size) {
+		vector<vector<Point>> Batched = {};
+		for ( int a = 0; a < batch_size; a += 1 ) {
+			vector<Point> vp = {};
+			for ( int b = 0; b < bootstap_size; b += 1 ) {
+				int r = rand() % original_data.size();
+				vp.push_back(original_data[r]);
+			}
+			Batched.push_back(vp);
+		}
+		return Batched;
+	}
 };
 
 #endif // !BAGGING_HEADER

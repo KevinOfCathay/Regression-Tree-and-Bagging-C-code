@@ -29,7 +29,7 @@ public:
 		for ( int d = 0; d < total_dimention; d += 1 ) {
 
 			// Sort the data according to the d-th dimention of x
-			Point_Utility::Sort(dataset, d);
+			Point_Utility::QuickPSort(dataset, d, lower, upper - 1);
 
 			for ( int a = lower + 1; a < upper - 1; a += 1 ) {
 				// Calculate the average
@@ -50,7 +50,7 @@ public:
 
 	pair<vector<Point>, vector<Point>> Partition(vector<Point>& dataset, pair<int, int> splitting_point) {
 		// Sort the data according to the d-th dimention of x
-		Point_Utility::Sort(dataset, splitting_point.second);
+		Point_Utility::QuickPSort(dataset, splitting_point.second, 0, dataset.size() - 1);
 		vector<Point> Left_Half(dataset.begin(), dataset.begin() + splitting_point.first),
 			Right_Half(dataset.begin() + splitting_point.first, dataset.end());
 		return make_pair(Left_Half, Right_Half);

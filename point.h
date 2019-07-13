@@ -9,6 +9,7 @@
 #include <ctime>
 
 using namespace std;
+
 struct Point {
 	Point(int Xdata[], int Ydata, int Dimention) {
 		x = {};
@@ -26,12 +27,12 @@ struct Point {
 
 class Point_Utility {
 public:
-	static void PrintPoint(Point& X) {
+	static void PrintPoint(Point& P) {
 		cout << "x: ( ";
-		for ( auto i = X.x.begin(); i != X.x.end(); i++ ) {
+		for ( auto i = P.x.begin(); i != P.x.end(); i++ ) {
 			cout << *i << " , ";
 		}
-		cout << " ),  y: " << X.y << endl;
+		cout << " ),  y: " << P.y << endl;
 	}
 	static void PrintVPoint(vector<Point>& VP) {
 		for ( auto i = VP.begin(); i != VP.end(); i++ ) {
@@ -39,22 +40,40 @@ public:
 		}
 		cout << endl;
 	}
+	static void PrintVVPoint(vector<vector<Point>>& VVP) {
+		for ( auto i = VVP.begin(); i != VVP.end(); i++ ) {
+			PrintVPoint(*i);
+		}
+		cout << endl;
+	}
+	static void SwapPoints(vector<Point>& VP, int target_idx_A, int target_idx_B) {
+		Point p = VP[target_idx_A];
+		VP[target_idx_A] = VP[target_idx_B];
+		VP[target_idx_B] = p;
+	};
 
 	static void Sort(vector<Point>& VP, int Dimention) {
 		int sz = VP.size();
 		for ( int a = 0; a < sz; a += 1 ) {
 			for ( int b = a + 1; b < sz; b += 1 ) {
 				if ( VP[a].x[Dimention] > VP[b].x[Dimention] ) {
-					Point temp = VP[a];
-					VP[a] = VP[b];
-					VP[b] = temp;
+					SwapPoints(VP, a, b);
 				}
 			}
 		}
 	}
-
+	// Quick sort for points according to a specific dimention (Priority)
+	// It is unknown whether it has a better performance than elementry sort
+	// There will be a significant performance boost if we use Point[] instead of vector<Point>
+	static void QuickPSort(vector<Point>& VP, int dimention, int bottom, int top) {
+		if ( bottom < top ) {
+			int split_point = Split(VP, dimention, bottom, top);
+			QuickPSort(VP, dimention, bottom, split_point - 1);
+			QuickPSort(VP, dimention, split_point + 1, top);
+		}
+	};
 	// Assign a series of value to a specific demention
-	static void Assign(vector<Point>& VP, vector<float> Data, int Dimention) {
+	static void Assign(vector<Point>& VP, vector<float>& Data, int Dimention) {
 		int a = 0;
 		if ( Dimention >= VP[0].x.size() ) {
 			for ( auto i = VP.begin(); i != VP.end(); i++ ) {
@@ -69,7 +88,6 @@ public:
 			}
 		}
 	}
-
 	static void BulkInit(vector<Point>& VP, int Dimention, int size) {
 		vector<float> zeros = {};
 		for ( int p = 0; p < Dimention; p += 1 ) {
@@ -79,6 +97,30 @@ public:
 			VP.push_back(Point(zeros, 0));
 		}
 	}
+protected:
+	static int Split(vector<Point>& VP, int Dimention, int bottom, int upper) {
+		int lo_bottom = bottom + 1; int lo_top = upper;
+		Point pivot_point = VP[bottom];
+		float pivot_number = pivot_point.x[Dimention];
+
+		while ( true ) {
+			//find the bottom position, which bottom number>pivot number
+			while ( VP[lo_bottom].x[Dimention] <= pivot_number && lo_bottom < lo_top ) { lo_bottom = lo_bottom + 1; }
+			while ( VP[lo_top].x[Dimention] > pivot_number && lo_bottom < lo_top ) { lo_top = lo_top - 1; }
+			if ( lo_bottom != lo_top ) { SwapPoints(VP, lo_bottom, lo_top); }
+			if ( lo_bottom >= lo_top ) { break; }
+		}
+		if ( pivot_number < VP[lo_bottom].x[Dimention] ) {
+			VP[bottom] = VP[lo_top - 1];
+			VP[lo_top - 1] = pivot_point;
+			return lo_top - 1;
+		}
+		else {
+			VP[bottom] = VP[lo_top];
+			VP[lo_top] = pivot_point;
+			return lo_top;
+		}
+	};
 };
 
 class Random_Utility {
