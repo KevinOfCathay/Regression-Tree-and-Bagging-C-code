@@ -1,0 +1,2254 @@
+=== Regression Tree ===
+Block Information:
+Block base address: 00000000  Block average:1908.56  Terminal: 0
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( -2.41465 , 0.774967 , 1.49903 ,  ),  y: 4.77113
+x: ( -0.836025 , -0.174086 , 2.54536 ,  ),  y: 2.56236
+x: ( 1.95442 , -2.2614 , 1.03784 ,  ),  y: -5.93914
+x: ( 2.22821 , 6.17214 , 3.85395 ,  ),  y: 18.4186
+x: ( 4.1921 , 8.68508 , 10.6752 ,  ),  y: 43.0642
+x: ( 4.68736 , 11.1012 , 9.00185 ,  ),  y: 43.088
+x: ( 5.17687 , 7.29973 , 1.1758 ,  ),  y: 18.6188
+x: ( 5.37488 , 3.17498 , 1.66675 ,  ),  y: 2.0865
+x: ( 8.78224 , 5.37211 , 4.00265 ,  ),  y: 20.4271
+x: ( 9.53736 , 7.26744 , 6.80243 ,  ),  y: 35.3762
+x: ( 10.5577 , 2.70053 , 5.65801 ,  ),  y: 22.721
+x: ( 11.7726 , 11.5305 , 15.7664 ,  ),  y: 105.484
+x: ( 12.1059 , 8.12021 , 9.97998 ,  ),  y: 59.2175
+x: ( 13.6617 , 13.1805 , 15.3318 ,  ),  y: 130.103
+x: ( 15.0106 , 18.3902 , 22.8078 ,  ),  y: 206.331
+x: ( 15.5273 , 13.8033 , 17.4267 ,  ),  y: 154.845
+x: ( 16.3839 , 8.89762 , 17.3886 ,  ),  y: 134.619
+x: ( 17.111 , 15.5042 , 11.5109 ,  ),  y: 132.559
+x: ( 18.4678 , 18.4987 , 24.2406 ,  ),  y: 249.439
+x: ( 19.5446 , 14.6362 , 18.5628 ,  ),  y: 180.917
+x: ( 21.1579 , 20.2757 , 14.8212 ,  ),  y: 208.066
+x: ( 22.2751 , 22.1316 , 22.2488 ,  ),  y: 299.26
+x: ( 22.6208 , 21.1486 , 25.1348 ,  ),  y: 312.987
+x: ( 24.4532 , 20.7224 , 22.9673 ,  ),  y: 313.284
+x: ( 25.5603 , 13.7824 , 11.9933 ,  ),  y: 195.401
+x: ( 26.8034 , 26.314 , 28.7629 ,  ),  y: 448.941
+x: ( 27.6249 , 22.8187 , 20.9752 ,  ),  y: 344.217
+x: ( 28.3193 , 28.4512 , 31.5676 ,  ),  y: 522.767
+x: ( 28.339 , 25.9234 , 25.7709 ,  ),  y: 422.43
+x: ( 29.3771 , 32.3272 , 24.5768 ,  ),  y: 503.193
+x: ( 29.6978 , 31.5976 , 29.6841 ,  ),  y: 548.477
+x: ( 30.6875 , 34.7917 , 33.8909 ,  ),  y: 659.191
+x: ( 32.1291 , 31.8857 , 37.1589 ,  ),  y: 688.387
+x: ( 32.6462 , 29.9723 , 32.9854 ,  ),  y: 608.892
+x: ( 33.0028 , 30.5674 , 34.2298 ,  ),  y: 629.927
+x: ( 34.2863 , 33.6336 , 34.9142 ,  ),  y: 707.661
+x: ( 35.5266 , 39.8218 , 37.3365 ,  ),  y: 848.418
+x: ( 37.5344 , 42.7871 , 34.2299 ,  ),  y: 885.515
+x: ( 38.0691 , 40.6068 , 43.7112 ,  ),  y: 1004.31
+x: ( 39.4749 , 40.5881 , 43.3713 ,  ),  y: 1015.08
+x: ( 39.6011 , 42.0155 , 38.0917 ,  ),  y: 954.673
+x: ( 39.7886 , 35.8137 , 42.1241 ,  ),  y: 930.041
+x: ( 40.2164 , 29.2379 , 35.2293 ,  ),  y: 744.347
+x: ( 42.074 , 41.564 , 41.911 ,  ),  y: 1051.86
+x: ( 45.0095 , 42.9145 , 46.707 ,  ),  y: 1212.31
+x: ( 45.9423 , 51.436 , 45.2881 ,  ),  y: 1365.64
+x: ( 48.1315 , 39.5129 , 43.3372 ,  ),  y: 1148.68
+x: ( 48.5584 , 47.439 , 40.9545 ,  ),  y: 1250.86
+x: ( 49.8232 , 42.7691 , 44.2651 ,  ),  y: 1261.24
+x: ( 49.9182 , 55.2173 , 54.3045 ,  ),  y: 1701.78
+x: ( 50.186 , 47.5789 , 51.9826 ,  ),  y: 1495.94
+x: ( 51.732 , 46.1717 , 51.0139 ,  ),  y: 1487.38
+x: ( 53.0398 , 46.4965 , 49.1324 ,  ),  y: 1478.96
+x: ( 54.5242 , 58.4133 , 55.6974 ,  ),  y: 1894.24
+x: ( 55.4808 , 57.4679 , 51.9411 ,  ),  y: 1812.03
+x: ( 55.6478 , 61.9745 , 57.6043 ,  ),  y: 2044.63
+x: ( 55.8075 , 51.667 , 49.9734 ,  ),  y: 1649.9
+x: ( 56.0563 , 51.4132 , 52.1447 ,  ),  y: 1695.18
+x: ( 58.2422 , 68.1862 , 62.9211 ,  ),  y: 2395.77
+x: ( 60.2423 , 63.0672 , 59.3176 ,  ),  y: 2226.55
+x: ( 61.6894 , 61.2829 , 59.4134 ,  ),  y: 2220.03
+x: ( 63.291 , 59.8493 , 56.8238 ,  ),  y: 2164.79
+x: ( 64.7659 , 63.3269 , 63.6142 ,  ),  y: 2449.05
+x: ( 65.0629 , 62.5392 , 63.0229 ,  ),  y: 2431.55
+x: ( 65.1443 , 66.4178 , 67.8352 ,  ),  y: 2655.03
+x: ( 67.2658 , 59.861 , 63.3202 ,  ),  y: 2424.36
+x: ( 67.6336 , 64.8176 , 66.754 ,  ),  y: 2648.9
+x: ( 69.6464 , 63.4438 , 65.2372 ,  ),  y: 2625.14
+x: ( 70.0285 , 70.0807 , 71.2172 ,  ),  y: 2985.59
+x: ( 70.1422 , 67.4802 , 72.5991 ,  ),  y: 2943.95
+x: ( 71.114 , 73.4769 , 69.2048 ,  ),  y: 3053.76
+x: ( 71.9271 , 71.1978 , 72.3489 ,  ),  y: 3093.13
+x: ( 72.2791 , 72.7647 , 71.2898 ,  ),  y: 3120.59
+x: ( 74.6362 , 74.6053 , 79.0903 ,  ),  y: 3479.25
+x: ( 75.5165 , 73.3323 , 77.033 ,  ),  y: 3404.73
+x: ( 75.5856 , 78.6626 , 70.0038 ,  ),  y: 3363.52
+x: ( 75.9592 , 72.5124 , 72.3046 ,  ),  y: 3254.54
+x: ( 75.969 , 67.244 , 74.598 ,  ),  y: 3172.37
+x: ( 76.9978 , 80.2064 , 82.1031 ,  ),  y: 3816.82
+x: ( 79.8515 , 77.0606 , 73.766 ,  ),  y: 3550.08
+x: ( 80.0343 , 81.8863 , 79.4137 ,  ),  y: 3873.49
+x: ( 80.5956 , 79.8056 , 75.9939 ,  ),  y: 3731.91
+x: ( 81.7542 , 86.261 , 74.2606 ,  ),  y: 3922.81
+x: ( 83.1339 , 84.0303 , 83.2773 ,  ),  y: 4187.28
+x: ( 86.111 , 80.9453 , 84.3176 ,  ),  y: 4219.13
+x: ( 86.9726 , 81.8826 , 80.5868 ,  ),  y: 4154.15
+x: ( 87.1104 , 86.6141 , 92.4668 ,  ),  y: 4733.64
+x: ( 87.1144 , 85.4769 , 83.4742 ,  ),  y: 4373.54
+x: ( 89.5073 , 90.8336 , 95.8313 ,  ),  y: 5099.68
+x: ( 90.0723 , 91.7172 , 97.4183 ,  ),  y: 5208.61
+x: ( 91.5652 , 87.2646 , 89.9332 ,  ),  y: 4821.26
+x: ( 93.5894 , 89.4777 , 95.5188 ,  ),  y: 5179.2
+x: ( 93.8116 , 95.6014 , 92.6773 ,  ),  y: 5308.27
+x: ( 93.8434 , 91.2207 , 98.8113 ,  ),  y: 5375.35
+x: ( 95.2656 , 95.2528 , 88.6829 ,  ),  y: 5200.54
+x: ( 96.1457 , 101.379 , 98.9175 ,  ),  y: 5855.9
+x: ( 96.3746 , 87.4097 , 91.8526 ,  ),  y: 5068.46
+x: ( 96.4935 , 90.2573 , 96.1866 ,  ),  y: 5341.57
+
+Block Information:
+Block base address: 00000000  Block average:9332.02  Terminal: 0
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 97.2012 , 99.0395 , 96.3353 ,  ),  y: 5711.52
+x: ( 97.4271 , 97.0537 , 100.593 ,  ),  y: 5810.54
+x: ( 98.7582 , 93.7111 , 98.6642 ,  ),  y: 5649.55
+x: ( 99.5532 , 104.451 , 102.178 ,  ),  y: 6250.78
+x: ( 100.314 , 103.115 , 97.5301 ,  ),  y: 6037.78
+x: ( 103.78 , 109.856 , 103.061 ,  ),  y: 6690.68
+x: ( 103.985 , 110.948 , 105.83 ,  ),  y: 6869.69
+x: ( 107.417 , 102.381 , 105.964 ,  ),  y: 6648.69
+x: ( 107.799 , 100.44 , 105.039 ,  ),  y: 6560
+x: ( 110.461 , 112.749 , 110.793 ,  ),  y: 7441.22
+x: ( 110.545 , 116.025 , 110.282 ,  ),  y: 7569.01
+x: ( 110.868 , 94.1161 , 103.133 ,  ),  y: 6355.27
+x: ( 111.17 , 107.462 , 102.806 ,  ),  y: 6904.84
+x: ( 111.844 , 109.416 , 114.909 ,  ),  y: 7537.2
+x: ( 111.858 , 112.982 , 111.594 ,  ),  y: 7548.23
+x: ( 112.237 , 117.521 , 116.342 ,  ),  y: 7986.37
+x: ( 114.216 , 115.042 , 109.448 ,  ),  y: 7662.13
+x: ( 114.291 , 115.71 , 115.099 ,  ),  y: 7933.26
+x: ( 115.88 , 119.653 , 118.838 ,  ),  y: 8372.13
+x: ( 116.86 , 118.753 , 117.571 ,  ),  y: 8311.81
+x: ( 118.038 , 122.502 , 121.165 ,  ),  y: 8723.91
+x: ( 118.437 , 115.13 , 120.102 ,  ),  y: 8350.11
+x: ( 119.834 , 119.6 , 128.819 ,  ),  y: 9053.42
+x: ( 120.957 , 123.32 , 124.493 ,  ),  y: 9065.15
+x: ( 122.595 , 117.663 , 125.432 ,  ),  y: 8921.38
+x: ( 122.886 , 123.963 , 119.038 ,  ),  y: 8929.64
+x: ( 123.774 , 118.698 , 123.005 ,  ),  y: 8908.89
+x: ( 124.579 , 125.321 , 128.154 ,  ),  y: 9525.76
+x: ( 124.747 , 121.686 , 124.13 ,  ),  y: 9155.27
+x: ( 126.361 , 133.347 , 129.141 ,  ),  y: 10079.1
+x: ( 127.254 , 128.261 , 132.039 ,  ),  y: 10012.9
+x: ( 129.026 , 128.545 , 125.308 ,  ),  y: 9772.41
+x: ( 131.185 , 138.689 , 127.111 ,  ),  y: 10524.4
+x: ( 131.606 , 127.647 , 126.779 ,  ),  y: 9934.86
+x: ( 131.776 , 131.612 , 133.091 ,  ),  y: 10476.4
+x: ( 132.028 , 135.31 , 135.706 ,  ),  y: 10833.1
+x: ( 134.402 , 136.941 , 129.257 ,  ),  y: 10700.7
+x: ( 134.872 , 134.885 , 133.233 ,  ),  y: 10820.5
+x: ( 135.725 , 131.976 , 135.37 ,  ),  y: 10831.9
+x: ( 135.82 , 135.905 , 136.963 ,  ),  y: 11133.4
+x: ( 136.78 , 136.341 , 132.821 ,  ),  y: 10990.7
+x: ( 138.104 , 137.642 , 135.738 ,  ),  y: 11288.9
+x: ( 139.005 , 146.274 , 140.093 ,  ),  y: 12073.4
+x: ( 139.991 , 146.568 , 142.511 ,  ),  y: 12272.9
+x: ( 141.792 , 146.459 , 142.309 ,  ),  y: 12354.7
+x: ( 146.59 , 140.652 , 144.928 ,  ),  y: 12455.3
+x: ( 146.661 , 143.788 , 148.478 ,  ),  y: 12842.6
+x: ( 146.844 , 142.151 , 145.561 ,  ),  y: 12592.2
+x: ( 147.021 , 147.098 , 150.82 ,  ),  y: 13197.1
+x: ( 147.802 , 147.933 , 150.338 ,  ),  y: 13269.3
+x: ( 150.109 , 141.109 , 145.031 ,  ),  y: 12696
+x: ( 154.167 , 147.694 , 150.147 ,  ),  y: 13628
+
+Block Information:
+Block base address: 00D242F0  Block average:729.773  Terminal: 0
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 1.95442 , -2.2614 , 1.03784 ,  ),  y: -5.93914
+x: ( 5.17687 , 7.29973 , 1.1758 ,  ),  y: 18.6188
+x: ( -2.41465 , 0.774967 , 1.49903 ,  ),  y: 4.77113
+x: ( 5.37488 , 3.17498 , 1.66675 ,  ),  y: 2.0865
+x: ( -0.836025 , -0.174086 , 2.54536 ,  ),  y: 2.56236
+x: ( 2.22821 , 6.17214 , 3.85395 ,  ),  y: 18.4186
+x: ( 8.78224 , 5.37211 , 4.00265 ,  ),  y: 20.4271
+x: ( 10.5577 , 2.70053 , 5.65801 ,  ),  y: 22.721
+x: ( 9.53736 , 7.26744 , 6.80243 ,  ),  y: 35.3762
+x: ( 4.68736 , 11.1012 , 9.00185 ,  ),  y: 43.088
+x: ( 12.1059 , 8.12021 , 9.97998 ,  ),  y: 59.2175
+x: ( 4.1921 , 8.68508 , 10.6752 ,  ),  y: 43.0642
+x: ( 17.111 , 15.5042 , 11.5109 ,  ),  y: 132.559
+x: ( 25.5603 , 13.7824 , 11.9933 ,  ),  y: 195.401
+x: ( 21.1579 , 20.2757 , 14.8212 ,  ),  y: 208.066
+x: ( 13.6617 , 13.1805 , 15.3318 ,  ),  y: 130.103
+x: ( 11.7726 , 11.5305 , 15.7664 ,  ),  y: 105.484
+x: ( 16.3839 , 8.89762 , 17.3886 ,  ),  y: 134.619
+x: ( 15.5273 , 13.8033 , 17.4267 ,  ),  y: 154.845
+x: ( 19.5446 , 14.6362 , 18.5628 ,  ),  y: 180.917
+x: ( 27.6249 , 22.8187 , 20.9752 ,  ),  y: 344.217
+x: ( 22.2751 , 22.1316 , 22.2488 ,  ),  y: 299.26
+x: ( 15.0106 , 18.3902 , 22.8078 ,  ),  y: 206.331
+x: ( 24.4532 , 20.7224 , 22.9673 ,  ),  y: 313.284
+x: ( 18.4678 , 18.4987 , 24.2406 ,  ),  y: 249.439
+x: ( 29.3771 , 32.3272 , 24.5768 ,  ),  y: 503.193
+x: ( 22.6208 , 21.1486 , 25.1348 ,  ),  y: 312.987
+x: ( 28.339 , 25.9234 , 25.7709 ,  ),  y: 422.43
+x: ( 26.8034 , 26.314 , 28.7629 ,  ),  y: 448.941
+x: ( 29.6978 , 31.5976 , 29.6841 ,  ),  y: 548.477
+x: ( 28.3193 , 28.4512 , 31.5676 ,  ),  y: 522.767
+x: ( 32.6462 , 29.9723 , 32.9854 ,  ),  y: 608.892
+x: ( 30.6875 , 34.7917 , 33.8909 ,  ),  y: 659.191
+x: ( 33.0028 , 30.5674 , 34.2298 ,  ),  y: 629.927
+x: ( 37.5344 , 42.7871 , 34.2299 ,  ),  y: 885.515
+x: ( 34.2863 , 33.6336 , 34.9142 ,  ),  y: 707.661
+x: ( 40.2164 , 29.2379 , 35.2293 ,  ),  y: 744.347
+x: ( 32.1291 , 31.8857 , 37.1589 ,  ),  y: 688.387
+x: ( 35.5266 , 39.8218 , 37.3365 ,  ),  y: 848.418
+x: ( 39.6011 , 42.0155 , 38.0917 ,  ),  y: 954.673
+x: ( 48.5584 , 47.439 , 40.9545 ,  ),  y: 1250.86
+x: ( 42.074 , 41.564 , 41.911 ,  ),  y: 1051.86
+x: ( 39.7886 , 35.8137 , 42.1241 ,  ),  y: 930.041
+x: ( 48.1315 , 39.5129 , 43.3372 ,  ),  y: 1148.68
+x: ( 39.4749 , 40.5881 , 43.3713 ,  ),  y: 1015.08
+x: ( 38.0691 , 40.6068 , 43.7112 ,  ),  y: 1004.31
+x: ( 49.8232 , 42.7691 , 44.2651 ,  ),  y: 1261.24
+x: ( 45.9423 , 51.436 , 45.2881 ,  ),  y: 1365.64
+x: ( 45.0095 , 42.9145 , 46.707 ,  ),  y: 1212.31
+x: ( 53.0398 , 46.4965 , 49.1324 ,  ),  y: 1478.96
+x: ( 55.8075 , 51.667 , 49.9734 ,  ),  y: 1649.9
+x: ( 51.732 , 46.1717 , 51.0139 ,  ),  y: 1487.38
+x: ( 55.4808 , 57.4679 , 51.9411 ,  ),  y: 1812.03
+x: ( 50.186 , 47.5789 , 51.9826 ,  ),  y: 1495.94
+x: ( 56.0563 , 51.4132 , 52.1447 ,  ),  y: 1695.18
+x: ( 49.9182 , 55.2173 , 54.3045 ,  ),  y: 1701.78
+x: ( 54.5242 , 58.4133 , 55.6974 ,  ),  y: 1894.24
+x: ( 63.291 , 59.8493 , 56.8238 ,  ),  y: 2164.79
+x: ( 55.6478 , 61.9745 , 57.6043 ,  ),  y: 2044.63
+x: ( 60.2423 , 63.0672 , 59.3176 ,  ),  y: 2226.55
+x: ( 61.6894 , 61.2829 , 59.4134 ,  ),  y: 2220.03
+
+Block Information:
+Block base address: 00D242F0  Block average:3851.97  Terminal: 0
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 58.2422 , 68.1862 , 62.9211 ,  ),  y: 2395.77
+x: ( 65.0629 , 62.5392 , 63.0229 ,  ),  y: 2431.55
+x: ( 67.2658 , 59.861 , 63.3202 ,  ),  y: 2424.36
+x: ( 64.7659 , 63.3269 , 63.6142 ,  ),  y: 2449.05
+x: ( 69.6464 , 63.4438 , 65.2372 ,  ),  y: 2625.14
+x: ( 67.6336 , 64.8176 , 66.754 ,  ),  y: 2648.9
+x: ( 65.1443 , 66.4178 , 67.8352 ,  ),  y: 2655.03
+x: ( 71.114 , 73.4769 , 69.2048 ,  ),  y: 3053.76
+x: ( 75.5856 , 78.6626 , 70.0038 ,  ),  y: 3363.52
+x: ( 70.0285 , 70.0807 , 71.2172 ,  ),  y: 2985.59
+x: ( 72.2791 , 72.7647 , 71.2898 ,  ),  y: 3120.59
+x: ( 75.9592 , 72.5124 , 72.3046 ,  ),  y: 3254.54
+x: ( 71.9271 , 71.1978 , 72.3489 ,  ),  y: 3093.13
+x: ( 70.1422 , 67.4802 , 72.5991 ,  ),  y: 2943.95
+x: ( 79.8515 , 77.0606 , 73.766 ,  ),  y: 3550.08
+x: ( 81.7542 , 86.261 , 74.2606 ,  ),  y: 3922.81
+x: ( 75.969 , 67.244 , 74.598 ,  ),  y: 3172.37
+x: ( 80.5956 , 79.8056 , 75.9939 ,  ),  y: 3731.91
+x: ( 75.5165 , 73.3323 , 77.033 ,  ),  y: 3404.73
+x: ( 74.6362 , 74.6053 , 79.0903 ,  ),  y: 3479.25
+x: ( 80.0343 , 81.8863 , 79.4137 ,  ),  y: 3873.49
+x: ( 86.9726 , 81.8826 , 80.5868 ,  ),  y: 4154.15
+x: ( 76.9978 , 80.2064 , 82.1031 ,  ),  y: 3816.82
+x: ( 83.1339 , 84.0303 , 83.2773 ,  ),  y: 4187.28
+x: ( 87.1144 , 85.4769 , 83.4742 ,  ),  y: 4373.54
+x: ( 86.111 , 80.9453 , 84.3176 ,  ),  y: 4219.13
+x: ( 95.2656 , 95.2528 , 88.6829 ,  ),  y: 5200.54
+x: ( 91.5652 , 87.2646 , 89.9332 ,  ),  y: 4821.26
+x: ( 96.3746 , 87.4097 , 91.8526 ,  ),  y: 5068.46
+x: ( 87.1104 , 86.6141 , 92.4668 ,  ),  y: 4733.64
+x: ( 93.8116 , 95.6014 , 92.6773 ,  ),  y: 5308.27
+x: ( 93.5894 , 89.4777 , 95.5188 ,  ),  y: 5179.2
+x: ( 89.5073 , 90.8336 , 95.8313 ,  ),  y: 5099.68
+x: ( 96.4935 , 90.2573 , 96.1866 ,  ),  y: 5341.57
+x: ( 90.0723 , 91.7172 , 97.4183 ,  ),  y: 5208.61
+x: ( 93.8434 , 91.2207 , 98.8113 ,  ),  y: 5375.35
+x: ( 96.1457 , 101.379 , 98.9175 ,  ),  y: 5855.9
+
+Block Information:
+Block base address: 00D24088  Block average:293.591  Terminal: 0
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 1.95442 , -2.2614 , 1.03784 ,  ),  y: -5.93914
+x: ( 5.17687 , 7.29973 , 1.1758 ,  ),  y: 18.6188
+x: ( -2.41465 , 0.774967 , 1.49903 ,  ),  y: 4.77113
+x: ( 5.37488 , 3.17498 , 1.66675 ,  ),  y: 2.0865
+x: ( -0.836025 , -0.174086 , 2.54536 ,  ),  y: 2.56236
+x: ( 2.22821 , 6.17214 , 3.85395 ,  ),  y: 18.4186
+x: ( 8.78224 , 5.37211 , 4.00265 ,  ),  y: 20.4271
+x: ( 10.5577 , 2.70053 , 5.65801 ,  ),  y: 22.721
+x: ( 9.53736 , 7.26744 , 6.80243 ,  ),  y: 35.3762
+x: ( 4.68736 , 11.1012 , 9.00185 ,  ),  y: 43.088
+x: ( 12.1059 , 8.12021 , 9.97998 ,  ),  y: 59.2175
+x: ( 4.1921 , 8.68508 , 10.6752 ,  ),  y: 43.0642
+x: ( 17.111 , 15.5042 , 11.5109 ,  ),  y: 132.559
+x: ( 25.5603 , 13.7824 , 11.9933 ,  ),  y: 195.401
+x: ( 21.1579 , 20.2757 , 14.8212 ,  ),  y: 208.066
+x: ( 13.6617 , 13.1805 , 15.3318 ,  ),  y: 130.103
+x: ( 11.7726 , 11.5305 , 15.7664 ,  ),  y: 105.484
+x: ( 16.3839 , 8.89762 , 17.3886 ,  ),  y: 134.619
+x: ( 15.5273 , 13.8033 , 17.4267 ,  ),  y: 154.845
+x: ( 19.5446 , 14.6362 , 18.5628 ,  ),  y: 180.917
+x: ( 27.6249 , 22.8187 , 20.9752 ,  ),  y: 344.217
+x: ( 22.2751 , 22.1316 , 22.2488 ,  ),  y: 299.26
+x: ( 15.0106 , 18.3902 , 22.8078 ,  ),  y: 206.331
+x: ( 24.4532 , 20.7224 , 22.9673 ,  ),  y: 313.284
+x: ( 18.4678 , 18.4987 , 24.2406 ,  ),  y: 249.439
+x: ( 29.3771 , 32.3272 , 24.5768 ,  ),  y: 503.193
+x: ( 22.6208 , 21.1486 , 25.1348 ,  ),  y: 312.987
+x: ( 28.339 , 25.9234 , 25.7709 ,  ),  y: 422.43
+x: ( 26.8034 , 26.314 , 28.7629 ,  ),  y: 448.941
+x: ( 29.6978 , 31.5976 , 29.6841 ,  ),  y: 548.477
+x: ( 28.3193 , 28.4512 , 31.5676 ,  ),  y: 522.767
+x: ( 32.6462 , 29.9723 , 32.9854 ,  ),  y: 608.892
+x: ( 30.6875 , 34.7917 , 33.8909 ,  ),  y: 659.191
+x: ( 33.0028 , 30.5674 , 34.2298 ,  ),  y: 629.927
+x: ( 37.5344 , 42.7871 , 34.2299 ,  ),  y: 885.515
+x: ( 34.2863 , 33.6336 , 34.9142 ,  ),  y: 707.661
+x: ( 40.2164 , 29.2379 , 35.2293 ,  ),  y: 744.347
+x: ( 32.1291 , 31.8857 , 37.1589 ,  ),  y: 688.387
+x: ( 35.5266 , 39.8218 , 37.3365 ,  ),  y: 848.418
+
+Block Information:
+Block base address: 00D24088  Block average:1503.01  Terminal: 0
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 39.6011 , 42.0155 , 38.0917 ,  ),  y: 954.673
+x: ( 48.5584 , 47.439 , 40.9545 ,  ),  y: 1250.86
+x: ( 42.074 , 41.564 , 41.911 ,  ),  y: 1051.86
+x: ( 39.7886 , 35.8137 , 42.1241 ,  ),  y: 930.041
+x: ( 48.1315 , 39.5129 , 43.3372 ,  ),  y: 1148.68
+x: ( 39.4749 , 40.5881 , 43.3713 ,  ),  y: 1015.08
+x: ( 38.0691 , 40.6068 , 43.7112 ,  ),  y: 1004.31
+x: ( 49.8232 , 42.7691 , 44.2651 ,  ),  y: 1261.24
+x: ( 45.9423 , 51.436 , 45.2881 ,  ),  y: 1365.64
+x: ( 45.0095 , 42.9145 , 46.707 ,  ),  y: 1212.31
+x: ( 53.0398 , 46.4965 , 49.1324 ,  ),  y: 1478.96
+x: ( 55.8075 , 51.667 , 49.9734 ,  ),  y: 1649.9
+x: ( 51.732 , 46.1717 , 51.0139 ,  ),  y: 1487.38
+x: ( 55.4808 , 57.4679 , 51.9411 ,  ),  y: 1812.03
+x: ( 50.186 , 47.5789 , 51.9826 ,  ),  y: 1495.94
+x: ( 56.0563 , 51.4132 , 52.1447 ,  ),  y: 1695.18
+x: ( 49.9182 , 55.2173 , 54.3045 ,  ),  y: 1701.78
+x: ( 54.5242 , 58.4133 , 55.6974 ,  ),  y: 1894.24
+x: ( 63.291 , 59.8493 , 56.8238 ,  ),  y: 2164.79
+x: ( 55.6478 , 61.9745 , 57.6043 ,  ),  y: 2044.63
+x: ( 60.2423 , 63.0672 , 59.3176 ,  ),  y: 2226.55
+x: ( 61.6894 , 61.2829 , 59.4134 ,  ),  y: 2220.03
+
+Block Information:
+Block base address: 00D24050  Block average:124.305  Terminal: 0
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 1.95442 , -2.2614 , 1.03784 ,  ),  y: -5.93914
+x: ( -0.836025 , -0.174086 , 2.54536 ,  ),  y: 2.56236
+x: ( -2.41465 , 0.774967 , 1.49903 ,  ),  y: 4.77113
+x: ( 10.5577 , 2.70053 , 5.65801 ,  ),  y: 22.721
+x: ( 5.37488 , 3.17498 , 1.66675 ,  ),  y: 2.0865
+x: ( 8.78224 , 5.37211 , 4.00265 ,  ),  y: 20.4271
+x: ( 2.22821 , 6.17214 , 3.85395 ,  ),  y: 18.4186
+x: ( 9.53736 , 7.26744 , 6.80243 ,  ),  y: 35.3762
+x: ( 5.17687 , 7.29973 , 1.1758 ,  ),  y: 18.6188
+x: ( 12.1059 , 8.12021 , 9.97998 ,  ),  y: 59.2175
+x: ( 4.1921 , 8.68508 , 10.6752 ,  ),  y: 43.0642
+x: ( 16.3839 , 8.89762 , 17.3886 ,  ),  y: 134.619
+x: ( 4.68736 , 11.1012 , 9.00185 ,  ),  y: 43.088
+x: ( 11.7726 , 11.5305 , 15.7664 ,  ),  y: 105.484
+x: ( 13.6617 , 13.1805 , 15.3318 ,  ),  y: 130.103
+x: ( 25.5603 , 13.7824 , 11.9933 ,  ),  y: 195.401
+x: ( 15.5273 , 13.8033 , 17.4267 ,  ),  y: 154.845
+x: ( 19.5446 , 14.6362 , 18.5628 ,  ),  y: 180.917
+x: ( 17.111 , 15.5042 , 11.5109 ,  ),  y: 132.559
+x: ( 15.0106 , 18.3902 , 22.8078 ,  ),  y: 206.331
+x: ( 18.4678 , 18.4987 , 24.2406 ,  ),  y: 249.439
+x: ( 21.1579 , 20.2757 , 14.8212 ,  ),  y: 208.066
+x: ( 24.4532 , 20.7224 , 22.9673 ,  ),  y: 313.284
+x: ( 22.6208 , 21.1486 , 25.1348 ,  ),  y: 312.987
+x: ( 22.2751 , 22.1316 , 22.2488 ,  ),  y: 299.26
+x: ( 27.6249 , 22.8187 , 20.9752 ,  ),  y: 344.217
+
+Block Information:
+Block base address: 00D24050  Block average:632.165  Terminal: 0
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 28.339 , 25.9234 , 25.7709 ,  ),  y: 422.43
+x: ( 26.8034 , 26.314 , 28.7629 ,  ),  y: 448.941
+x: ( 28.3193 , 28.4512 , 31.5676 ,  ),  y: 522.767
+x: ( 40.2164 , 29.2379 , 35.2293 ,  ),  y: 744.347
+x: ( 32.6462 , 29.9723 , 32.9854 ,  ),  y: 608.892
+x: ( 33.0028 , 30.5674 , 34.2298 ,  ),  y: 629.927
+x: ( 29.6978 , 31.5976 , 29.6841 ,  ),  y: 548.477
+x: ( 32.1291 , 31.8857 , 37.1589 ,  ),  y: 688.387
+x: ( 29.3771 , 32.3272 , 24.5768 ,  ),  y: 503.193
+x: ( 34.2863 , 33.6336 , 34.9142 ,  ),  y: 707.661
+x: ( 30.6875 , 34.7917 , 33.8909 ,  ),  y: 659.191
+x: ( 35.5266 , 39.8218 , 37.3365 ,  ),  y: 848.418
+x: ( 37.5344 , 42.7871 , 34.2299 ,  ),  y: 885.515
+
+Block Information:
+Block base address: 00D24130  Block average:28.4535  Terminal: 0
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Left
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( -2.41465 , 0.774967 , 1.49903 ,  ),  y: 4.77113
+x: ( -0.836025 , -0.174086 , 2.54536 ,  ),  y: 2.56236
+x: ( 1.95442 , -2.2614 , 1.03784 ,  ),  y: -5.93914
+x: ( 2.22821 , 6.17214 , 3.85395 ,  ),  y: 18.4186
+x: ( 4.1921 , 8.68508 , 10.6752 ,  ),  y: 43.0642
+x: ( 4.68736 , 11.1012 , 9.00185 ,  ),  y: 43.088
+x: ( 5.17687 , 7.29973 , 1.1758 ,  ),  y: 18.6188
+x: ( 5.37488 , 3.17498 , 1.66675 ,  ),  y: 2.0865
+x: ( 8.78224 , 5.37211 , 4.00265 ,  ),  y: 20.4271
+x: ( 9.53736 , 7.26744 , 6.80243 ,  ),  y: 35.3762
+x: ( 10.5577 , 2.70053 , 5.65801 ,  ),  y: 22.721
+x: ( 11.7726 , 11.5305 , 15.7664 ,  ),  y: 105.484
+x: ( 12.1059 , 8.12021 , 9.97998 ,  ),  y: 59.2175
+
+Block Information:
+Block base address: 00D24130  Block average:220.156  Terminal: 0
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Right
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 13.6617 , 13.1805 , 15.3318 ,  ),  y: 130.103
+x: ( 15.0106 , 18.3902 , 22.8078 ,  ),  y: 206.331
+x: ( 15.5273 , 13.8033 , 17.4267 ,  ),  y: 154.845
+x: ( 16.3839 , 8.89762 , 17.3886 ,  ),  y: 134.619
+x: ( 17.111 , 15.5042 , 11.5109 ,  ),  y: 132.559
+x: ( 18.4678 , 18.4987 , 24.2406 ,  ),  y: 249.439
+x: ( 19.5446 , 14.6362 , 18.5628 ,  ),  y: 180.917
+x: ( 21.1579 , 20.2757 , 14.8212 ,  ),  y: 208.066
+x: ( 22.2751 , 22.1316 , 22.2488 ,  ),  y: 299.26
+x: ( 22.6208 , 21.1486 , 25.1348 ,  ),  y: 312.987
+x: ( 24.4532 , 20.7224 , 22.9673 ,  ),  y: 313.284
+x: ( 25.5603 , 13.7824 , 11.9933 ,  ),  y: 195.401
+x: ( 27.6249 , 22.8187 , 20.9752 ,  ),  y: 344.217
+
+Block Information:
+Block base address: 00D242B8  Block average:18.6541  Terminal: 0
+Dimention: 0 |  Splitting Line:11.1652 |  Index:11
+Direction: Left
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Left
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( -2.41465 , 0.774967 , 1.49903 ,  ),  y: 4.77113
+x: ( -0.836025 , -0.174086 , 2.54536 ,  ),  y: 2.56236
+x: ( 1.95442 , -2.2614 , 1.03784 ,  ),  y: -5.93914
+x: ( 2.22821 , 6.17214 , 3.85395 ,  ),  y: 18.4186
+x: ( 4.1921 , 8.68508 , 10.6752 ,  ),  y: 43.0642
+x: ( 4.68736 , 11.1012 , 9.00185 ,  ),  y: 43.088
+x: ( 5.17687 , 7.29973 , 1.1758 ,  ),  y: 18.6188
+x: ( 5.37488 , 3.17498 , 1.66675 ,  ),  y: 2.0865
+x: ( 8.78224 , 5.37211 , 4.00265 ,  ),  y: 20.4271
+x: ( 9.53736 , 7.26744 , 6.80243 ,  ),  y: 35.3762
+x: ( 10.5577 , 2.70053 , 5.65801 ,  ),  y: 22.721
+
+Block Information:
+Block base address: 00D242B8  Block average:82.3505  Terminal: 1
+Dimention: 0 |  Splitting Line:11.1652 |  Index:11
+Direction: Right
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Left
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 11.7726 , 11.5305 , 15.7664 ,  ),  y: 105.484
+x: ( 12.1059 , 8.12021 , 9.97998 ,  ),  y: 59.2175
+
+Block Information:
+Block base address: 00D24360  Block average:10.4583  Terminal: 0
+Dimention: 2 |  Splitting Line:6.23022 |  Index:8
+Direction: Left
+Dimention: 0 |  Splitting Line:11.1652 |  Index:11
+Direction: Left
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Left
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 1.95442 , -2.2614 , 1.03784 ,  ),  y: -5.93914
+x: ( 5.17687 , 7.29973 , 1.1758 ,  ),  y: 18.6188
+x: ( -2.41465 , 0.774967 , 1.49903 ,  ),  y: 4.77113
+x: ( 5.37488 , 3.17498 , 1.66675 ,  ),  y: 2.0865
+x: ( -0.836025 , -0.174086 , 2.54536 ,  ),  y: 2.56236
+x: ( 2.22821 , 6.17214 , 3.85395 ,  ),  y: 18.4186
+x: ( 8.78224 , 5.37211 , 4.00265 ,  ),  y: 20.4271
+x: ( 10.5577 , 2.70053 , 5.65801 ,  ),  y: 22.721
+
+Block Information:
+Block base address: 00D24360  Block average:40.5094  Terminal: 1
+Dimention: 2 |  Splitting Line:6.23022 |  Index:8
+Direction: Right
+Dimention: 0 |  Splitting Line:11.1652 |  Index:11
+Direction: Left
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Left
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 9.53736 , 7.26744 , 6.80243 ,  ),  y: 35.3762
+x: ( 4.68736 , 11.1012 , 9.00185 ,  ),  y: 43.088
+x: ( 4.1921 , 8.68508 , 10.6752 ,  ),  y: 43.0642
+
+Block Information:
+Block base address: 00D23FE0  Block average:4.41992  Terminal: 0
+Dimention: 2 |  Splitting Line:3.19965 |  Index:5
+Direction: Left
+Dimention: 2 |  Splitting Line:6.23022 |  Index:8
+Direction: Left
+Dimention: 0 |  Splitting Line:11.1652 |  Index:11
+Direction: Left
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Left
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 1.95442 , -2.2614 , 1.03784 ,  ),  y: -5.93914
+x: ( 5.17687 , 7.29973 , 1.1758 ,  ),  y: 18.6188
+x: ( -2.41465 , 0.774967 , 1.49903 ,  ),  y: 4.77113
+x: ( 5.37488 , 3.17498 , 1.66675 ,  ),  y: 2.0865
+x: ( -0.836025 , -0.174086 , 2.54536 ,  ),  y: 2.56236
+
+Block Information:
+Block base address: 00D23FE0  Block average:20.5222  Terminal: 1
+Dimention: 2 |  Splitting Line:3.19965 |  Index:5
+Direction: Right
+Dimention: 2 |  Splitting Line:6.23022 |  Index:8
+Direction: Left
+Dimention: 0 |  Splitting Line:11.1652 |  Index:11
+Direction: Left
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Left
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 2.22821 , 6.17214 , 3.85395 ,  ),  y: 18.4186
+x: ( 8.78224 , 5.37211 , 4.00265 ,  ),  y: 20.4271
+x: ( 10.5577 , 2.70053 , 5.65801 ,  ),  y: 22.721
+
+Block Information:
+Block base address: 00D2D738  Block average:-5.93914  Terminal: 1
+Dimention: 2 |  Splitting Line:1.10682 |  Index:1
+Direction: Left
+Dimention: 2 |  Splitting Line:3.19965 |  Index:5
+Direction: Left
+Dimention: 2 |  Splitting Line:6.23022 |  Index:8
+Direction: Left
+Dimention: 0 |  Splitting Line:11.1652 |  Index:11
+Direction: Left
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Left
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 1.95442 , -2.2614 , 1.03784 ,  ),  y: -5.93914
+
+Block Information:
+Block base address: 00D2D738  Block average:7.00969  Terminal: 1
+Dimention: 2 |  Splitting Line:1.10682 |  Index:1
+Direction: Right
+Dimention: 2 |  Splitting Line:3.19965 |  Index:5
+Direction: Left
+Dimention: 2 |  Splitting Line:6.23022 |  Index:8
+Direction: Left
+Dimention: 0 |  Splitting Line:11.1652 |  Index:11
+Direction: Left
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Left
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 5.17687 , 7.29973 , 1.1758 ,  ),  y: 18.6188
+x: ( -2.41465 , 0.774967 , 1.49903 ,  ),  y: 4.77113
+x: ( 5.37488 , 3.17498 , 1.66675 ,  ),  y: 2.0865
+x: ( -0.836025 , -0.174086 , 2.54536 ,  ),  y: 2.56236
+
+Block Information:
+Block base address: 00D24168  Block average:176.92  Terminal: 0
+Dimention: 1 |  Splitting Line:20.4991 |  Index:9
+Direction: Left
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Right
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 16.3839 , 8.89762 , 17.3886 ,  ),  y: 134.619
+x: ( 13.6617 , 13.1805 , 15.3318 ,  ),  y: 130.103
+x: ( 25.5603 , 13.7824 , 11.9933 ,  ),  y: 195.401
+x: ( 15.5273 , 13.8033 , 17.4267 ,  ),  y: 154.845
+x: ( 19.5446 , 14.6362 , 18.5628 ,  ),  y: 180.917
+x: ( 17.111 , 15.5042 , 11.5109 ,  ),  y: 132.559
+x: ( 15.0106 , 18.3902 , 22.8078 ,  ),  y: 206.331
+x: ( 18.4678 , 18.4987 , 24.2406 ,  ),  y: 249.439
+x: ( 21.1579 , 20.2757 , 14.8212 ,  ),  y: 208.066
+
+Block Information:
+Block base address: 00D24168  Block average:317.437  Terminal: 1
+Dimention: 1 |  Splitting Line:20.4991 |  Index:9
+Direction: Right
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Right
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 24.4532 , 20.7224 , 22.9673 ,  ),  y: 313.284
+x: ( 22.6208 , 21.1486 , 25.1348 ,  ),  y: 312.987
+x: ( 22.2751 , 22.1316 , 22.2488 ,  ),  y: 299.26
+x: ( 27.6249 , 22.8187 , 20.9752 ,  ),  y: 344.217
+
+Block Information:
+Block base address: 00D2D9D8  Block average:154.741  Terminal: 0
+Dimention: 1 |  Splitting Line:16.9472 |  Index:6
+Direction: Left
+Dimention: 1 |  Splitting Line:20.4991 |  Index:9
+Direction: Left
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Right
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 16.3839 , 8.89762 , 17.3886 ,  ),  y: 134.619
+x: ( 13.6617 , 13.1805 , 15.3318 ,  ),  y: 130.103
+x: ( 25.5603 , 13.7824 , 11.9933 ,  ),  y: 195.401
+x: ( 15.5273 , 13.8033 , 17.4267 ,  ),  y: 154.845
+x: ( 19.5446 , 14.6362 , 18.5628 ,  ),  y: 180.917
+x: ( 17.111 , 15.5042 , 11.5109 ,  ),  y: 132.559
+
+Block Information:
+Block base address: 00D2D9D8  Block average:221.279  Terminal: 1
+Dimention: 1 |  Splitting Line:16.9472 |  Index:6
+Direction: Right
+Dimention: 1 |  Splitting Line:20.4991 |  Index:9
+Direction: Left
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Right
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 15.0106 , 18.3902 , 22.8078 ,  ),  y: 206.331
+x: ( 18.4678 , 18.4987 , 24.2406 ,  ),  y: 249.439
+x: ( 21.1579 , 20.2757 , 14.8212 ,  ),  y: 208.066
+
+Block Information:
+Block base address: 00D2D5E8  Block average:138.032  Terminal: 1
+Dimention: 0 |  Splitting Line:18.3278 |  Index:4
+Direction: Left
+Dimention: 1 |  Splitting Line:16.9472 |  Index:6
+Direction: Left
+Dimention: 1 |  Splitting Line:20.4991 |  Index:9
+Direction: Left
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Right
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 13.6617 , 13.1805 , 15.3318 ,  ),  y: 130.103
+x: ( 15.5273 , 13.8033 , 17.4267 ,  ),  y: 154.845
+x: ( 16.3839 , 8.89762 , 17.3886 ,  ),  y: 134.619
+x: ( 17.111 , 15.5042 , 11.5109 ,  ),  y: 132.559
+
+Block Information:
+Block base address: 00D2D5E8  Block average:188.159  Terminal: 1
+Dimention: 0 |  Splitting Line:18.3278 |  Index:4
+Direction: Right
+Dimention: 1 |  Splitting Line:16.9472 |  Index:6
+Direction: Left
+Dimention: 1 |  Splitting Line:20.4991 |  Index:9
+Direction: Left
+Dimention: 0 |  Splitting Line:12.8838 |  Index:13
+Direction: Right
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 19.5446 , 14.6362 , 18.5628 ,  ),  y: 180.917
+x: ( 25.5603 , 13.7824 , 11.9933 ,  ),  y: 195.401
+
+Block Information:
+Block base address: 00D24328  Block average:509.117  Terminal: 0
+Dimention: 2 |  Splitting Line:33.4382 |  Index:6
+Direction: Left
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 29.3771 , 32.3272 , 24.5768 ,  ),  y: 503.193
+x: ( 28.339 , 25.9234 , 25.7709 ,  ),  y: 422.43
+x: ( 26.8034 , 26.314 , 28.7629 ,  ),  y: 448.941
+x: ( 29.6978 , 31.5976 , 29.6841 ,  ),  y: 548.477
+x: ( 28.3193 , 28.4512 , 31.5676 ,  ),  y: 522.767
+x: ( 32.6462 , 29.9723 , 32.9854 ,  ),  y: 608.892
+
+Block Information:
+Block base address: 00D24328  Block average:737.635  Terminal: 0
+Dimention: 2 |  Splitting Line:33.4382 |  Index:6
+Direction: Right
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 30.6875 , 34.7917 , 33.8909 ,  ),  y: 659.191
+x: ( 33.0028 , 30.5674 , 34.2298 ,  ),  y: 629.927
+x: ( 37.5344 , 42.7871 , 34.2299 ,  ),  y: 885.515
+x: ( 34.2863 , 33.6336 , 34.9142 ,  ),  y: 707.661
+x: ( 40.2164 , 29.2379 , 35.2293 ,  ),  y: 744.347
+x: ( 32.1291 , 31.8857 , 37.1589 ,  ),  y: 688.387
+x: ( 35.5266 , 39.8218 , 37.3365 ,  ),  y: 848.418
+
+Block Information:
+Block base address: 00D2D968  Block average:435.686  Terminal: 1
+Dimention: 1 |  Splitting Line:27.3826 |  Index:2
+Direction: Left
+Dimention: 2 |  Splitting Line:33.4382 |  Index:6
+Direction: Left
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 28.339 , 25.9234 , 25.7709 ,  ),  y: 422.43
+x: ( 26.8034 , 26.314 , 28.7629 ,  ),  y: 448.941
+
+Block Information:
+Block base address: 00D2D968  Block average:545.832  Terminal: 1
+Dimention: 1 |  Splitting Line:27.3826 |  Index:2
+Direction: Right
+Dimention: 2 |  Splitting Line:33.4382 |  Index:6
+Direction: Left
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 28.3193 , 28.4512 , 31.5676 ,  ),  y: 522.767
+x: ( 32.6462 , 29.9723 , 32.9854 ,  ),  y: 608.892
+x: ( 29.6978 , 31.5976 , 29.6841 ,  ),  y: 548.477
+x: ( 29.3771 , 32.3272 , 24.5768 ,  ),  y: 503.193
+
+Block Information:
+Block base address: 00D2D930  Block average:685.902  Terminal: 0
+Dimention: 1 |  Splitting Line:37.3067 |  Index:5
+Direction: Left
+Dimention: 2 |  Splitting Line:33.4382 |  Index:6
+Direction: Right
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 40.2164 , 29.2379 , 35.2293 ,  ),  y: 744.347
+x: ( 33.0028 , 30.5674 , 34.2298 ,  ),  y: 629.927
+x: ( 32.1291 , 31.8857 , 37.1589 ,  ),  y: 688.387
+x: ( 34.2863 , 33.6336 , 34.9142 ,  ),  y: 707.661
+x: ( 30.6875 , 34.7917 , 33.8909 ,  ),  y: 659.191
+
+Block Information:
+Block base address: 00D2D930  Block average:866.967  Terminal: 1
+Dimention: 1 |  Splitting Line:37.3067 |  Index:5
+Direction: Right
+Dimention: 2 |  Splitting Line:33.4382 |  Index:6
+Direction: Right
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 35.5266 , 39.8218 , 37.3365 ,  ),  y: 848.418
+x: ( 37.5344 , 42.7871 , 34.2299 ,  ),  y: 885.515
+
+Block Information:
+Block base address: 00D2D4D0  Block average:644.559  Terminal: 1
+Dimention: 2 |  Splitting Line:34.572 |  Index:2
+Direction: Left
+Dimention: 1 |  Splitting Line:37.3067 |  Index:5
+Direction: Left
+Dimention: 2 |  Splitting Line:33.4382 |  Index:6
+Direction: Right
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 30.6875 , 34.7917 , 33.8909 ,  ),  y: 659.191
+x: ( 33.0028 , 30.5674 , 34.2298 ,  ),  y: 629.927
+
+Block Information:
+Block base address: 00D2D4D0  Block average:713.465  Terminal: 1
+Dimention: 2 |  Splitting Line:34.572 |  Index:2
+Direction: Right
+Dimention: 1 |  Splitting Line:37.3067 |  Index:5
+Direction: Left
+Dimention: 2 |  Splitting Line:33.4382 |  Index:6
+Direction: Right
+Dimention: 1 |  Splitting Line:24.3711 |  Index:26
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 34.2863 , 33.6336 , 34.9142 ,  ),  y: 707.661
+x: ( 40.2164 , 29.2379 , 35.2293 ,  ),  y: 744.347
+x: ( 32.1291 , 31.8857 , 37.1589 ,  ),  y: 688.387
+
+Block Information:
+Block base address: 00D24210  Block average:1152.15  Terminal: 0
+Dimention: 2 |  Splitting Line:49.5529 |  Index:11
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 39.6011 , 42.0155 , 38.0917 ,  ),  y: 954.673
+x: ( 48.5584 , 47.439 , 40.9545 ,  ),  y: 1250.86
+x: ( 42.074 , 41.564 , 41.911 ,  ),  y: 1051.86
+x: ( 39.7886 , 35.8137 , 42.1241 ,  ),  y: 930.041
+x: ( 48.1315 , 39.5129 , 43.3372 ,  ),  y: 1148.68
+x: ( 39.4749 , 40.5881 , 43.3713 ,  ),  y: 1015.08
+x: ( 38.0691 , 40.6068 , 43.7112 ,  ),  y: 1004.31
+x: ( 49.8232 , 42.7691 , 44.2651 ,  ),  y: 1261.24
+x: ( 45.9423 , 51.436 , 45.2881 ,  ),  y: 1365.64
+x: ( 45.0095 , 42.9145 , 46.707 ,  ),  y: 1212.31
+x: ( 53.0398 , 46.4965 , 49.1324 ,  ),  y: 1478.96
+
+Block Information:
+Block base address: 00D24210  Block average:1853.86  Terminal: 0
+Dimention: 2 |  Splitting Line:49.5529 |  Index:11
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 55.8075 , 51.667 , 49.9734 ,  ),  y: 1649.9
+x: ( 51.732 , 46.1717 , 51.0139 ,  ),  y: 1487.38
+x: ( 55.4808 , 57.4679 , 51.9411 ,  ),  y: 1812.03
+x: ( 50.186 , 47.5789 , 51.9826 ,  ),  y: 1495.94
+x: ( 56.0563 , 51.4132 , 52.1447 ,  ),  y: 1695.18
+x: ( 49.9182 , 55.2173 , 54.3045 ,  ),  y: 1701.78
+x: ( 54.5242 , 58.4133 , 55.6974 ,  ),  y: 1894.24
+x: ( 63.291 , 59.8493 , 56.8238 ,  ),  y: 2164.79
+x: ( 55.6478 , 61.9745 , 57.6043 ,  ),  y: 2044.63
+x: ( 60.2423 , 63.0672 , 59.3176 ,  ),  y: 2226.55
+x: ( 61.6894 , 61.2829 , 59.4134 ,  ),  y: 2220.03
+
+Block Information:
+Block base address: 00D2D3B8  Block average:1017.44  Terminal: 0
+Dimention: 1 |  Splitting Line:42.3923 |  Index:6
+Direction: Left
+Dimention: 2 |  Splitting Line:49.5529 |  Index:11
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 39.7886 , 35.8137 , 42.1241 ,  ),  y: 930.041
+x: ( 48.1315 , 39.5129 , 43.3372 ,  ),  y: 1148.68
+x: ( 39.4749 , 40.5881 , 43.3713 ,  ),  y: 1015.08
+x: ( 38.0691 , 40.6068 , 43.7112 ,  ),  y: 1004.31
+x: ( 42.074 , 41.564 , 41.911 ,  ),  y: 1051.86
+x: ( 39.6011 , 42.0155 , 38.0917 ,  ),  y: 954.673
+
+Block Information:
+Block base address: 00D2D3B8  Block average:1313.8  Terminal: 0
+Dimention: 1 |  Splitting Line:42.3923 |  Index:6
+Direction: Right
+Dimention: 2 |  Splitting Line:49.5529 |  Index:11
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 49.8232 , 42.7691 , 44.2651 ,  ),  y: 1261.24
+x: ( 45.0095 , 42.9145 , 46.707 ,  ),  y: 1212.31
+x: ( 53.0398 , 46.4965 , 49.1324 ,  ),  y: 1478.96
+x: ( 48.5584 , 47.439 , 40.9545 ,  ),  y: 1250.86
+x: ( 45.9423 , 51.436 , 45.2881 ,  ),  y: 1365.64
+
+Block Information:
+Block base address: 00D2D428  Block average:976.026  Terminal: 1
+Dimention: 0 |  Splitting Line:40.9313 |  Index:4
+Direction: Left
+Dimention: 1 |  Splitting Line:42.3923 |  Index:6
+Direction: Left
+Dimention: 2 |  Splitting Line:49.5529 |  Index:11
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 38.0691 , 40.6068 , 43.7112 ,  ),  y: 1004.31
+x: ( 39.4749 , 40.5881 , 43.3713 ,  ),  y: 1015.08
+x: ( 39.6011 , 42.0155 , 38.0917 ,  ),  y: 954.673
+x: ( 39.7886 , 35.8137 , 42.1241 ,  ),  y: 930.041
+
+Block Information:
+Block base address: 00D2D428  Block average:1100.27  Terminal: 1
+Dimention: 0 |  Splitting Line:40.9313 |  Index:4
+Direction: Right
+Dimention: 1 |  Splitting Line:42.3923 |  Index:6
+Direction: Left
+Dimention: 2 |  Splitting Line:49.5529 |  Index:11
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 42.074 , 41.564 , 41.911 ,  ),  y: 1051.86
+x: ( 48.1315 , 39.5129 , 43.3372 ,  ),  y: 1148.68
+
+Block Information:
+Block base address: 00D2D578  Block average:1236.78  Terminal: 1
+Dimention: 1 |  Splitting Line:44.7055 |  Index:2
+Direction: Left
+Dimention: 1 |  Splitting Line:42.3923 |  Index:6
+Direction: Right
+Dimention: 2 |  Splitting Line:49.5529 |  Index:11
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 49.8232 , 42.7691 , 44.2651 ,  ),  y: 1261.24
+x: ( 45.0095 , 42.9145 , 46.707 ,  ),  y: 1212.31
+
+Block Information:
+Block base address: 00D2D578  Block average:1365.15  Terminal: 1
+Dimention: 1 |  Splitting Line:44.7055 |  Index:2
+Direction: Right
+Dimention: 1 |  Splitting Line:42.3923 |  Index:6
+Direction: Right
+Dimention: 2 |  Splitting Line:49.5529 |  Index:11
+Direction: Left
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 53.0398 , 46.4965 , 49.1324 ,  ),  y: 1478.96
+x: ( 48.5584 , 47.439 , 40.9545 ,  ),  y: 1250.86
+x: ( 45.9423 , 51.436 , 45.2881 ,  ),  y: 1365.64
+
+Block Information:
+Block base address: 00D2D818  Block average:1676.64  Terminal: 0
+Dimention: 1 |  Splitting Line:59.1313 |  Index:7
+Direction: Left
+Dimention: 2 |  Splitting Line:49.5529 |  Index:11
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 51.732 , 46.1717 , 51.0139 ,  ),  y: 1487.38
+x: ( 50.186 , 47.5789 , 51.9826 ,  ),  y: 1495.94
+x: ( 56.0563 , 51.4132 , 52.1447 ,  ),  y: 1695.18
+x: ( 55.8075 , 51.667 , 49.9734 ,  ),  y: 1649.9
+x: ( 49.9182 , 55.2173 , 54.3045 ,  ),  y: 1701.78
+x: ( 55.4808 , 57.4679 , 51.9411 ,  ),  y: 1812.03
+x: ( 54.5242 , 58.4133 , 55.6974 ,  ),  y: 1894.24
+
+Block Information:
+Block base address: 00D2D818  Block average:2164  Terminal: 1
+Dimention: 1 |  Splitting Line:59.1313 |  Index:7
+Direction: Right
+Dimention: 2 |  Splitting Line:49.5529 |  Index:11
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 63.291 , 59.8493 , 56.8238 ,  ),  y: 2164.79
+x: ( 61.6894 , 61.2829 , 59.4134 ,  ),  y: 2220.03
+x: ( 55.6478 , 61.9745 , 57.6043 ,  ),  y: 2044.63
+x: ( 60.2423 , 63.0672 , 59.3176 ,  ),  y: 2226.55
+
+Block Information:
+Block base address: 00D2D770  Block average:1491.66  Terminal: 1
+Dimention: 1 |  Splitting Line:49.4961 |  Index:2
+Direction: Left
+Dimention: 1 |  Splitting Line:59.1313 |  Index:7
+Direction: Left
+Dimention: 2 |  Splitting Line:49.5529 |  Index:11
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 51.732 , 46.1717 , 51.0139 ,  ),  y: 1487.38
+x: ( 50.186 , 47.5789 , 51.9826 ,  ),  y: 1495.94
+
+Block Information:
+Block base address: 00D2D770  Block average:1750.63  Terminal: 0
+Dimention: 1 |  Splitting Line:49.4961 |  Index:2
+Direction: Right
+Dimention: 1 |  Splitting Line:59.1313 |  Index:7
+Direction: Left
+Dimention: 2 |  Splitting Line:49.5529 |  Index:11
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 56.0563 , 51.4132 , 52.1447 ,  ),  y: 1695.18
+x: ( 55.8075 , 51.667 , 49.9734 ,  ),  y: 1649.9
+x: ( 49.9182 , 55.2173 , 54.3045 ,  ),  y: 1701.78
+x: ( 55.4808 , 57.4679 , 51.9411 ,  ),  y: 1812.03
+x: ( 54.5242 , 58.4133 , 55.6974 ,  ),  y: 1894.24
+
+Block Information:
+Block base address: 00D2DAB8  Block average:1682.29  Terminal: 1
+Dimention: 1 |  Splitting Line:56.3426 |  Index:3
+Direction: Left
+Dimention: 1 |  Splitting Line:49.4961 |  Index:2
+Direction: Right
+Dimention: 1 |  Splitting Line:59.1313 |  Index:7
+Direction: Left
+Dimention: 2 |  Splitting Line:49.5529 |  Index:11
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 56.0563 , 51.4132 , 52.1447 ,  ),  y: 1695.18
+x: ( 55.8075 , 51.667 , 49.9734 ,  ),  y: 1649.9
+x: ( 49.9182 , 55.2173 , 54.3045 ,  ),  y: 1701.78
+
+Block Information:
+Block base address: 00D2DAB8  Block average:1853.14  Terminal: 1
+Dimention: 1 |  Splitting Line:56.3426 |  Index:3
+Direction: Right
+Dimention: 1 |  Splitting Line:49.4961 |  Index:2
+Direction: Right
+Dimention: 1 |  Splitting Line:59.1313 |  Index:7
+Direction: Left
+Dimention: 2 |  Splitting Line:49.5529 |  Index:11
+Direction: Right
+Dimention: 2 |  Splitting Line:37.7141 |  Index:39
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 55.4808 , 57.4679 , 51.9411 ,  ),  y: 1812.03
+x: ( 54.5242 , 58.4133 , 55.6974 ,  ),  y: 1894.24
+
+Block Information:
+Block base address: 00D241D8  Block average:3108.92  Terminal: 0
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 58.2422 , 68.1862 , 62.9211 ,  ),  y: 2395.77
+x: ( 64.7659 , 63.3269 , 63.6142 ,  ),  y: 2449.05
+x: ( 65.0629 , 62.5392 , 63.0229 ,  ),  y: 2431.55
+x: ( 65.1443 , 66.4178 , 67.8352 ,  ),  y: 2655.03
+x: ( 67.2658 , 59.861 , 63.3202 ,  ),  y: 2424.36
+x: ( 67.6336 , 64.8176 , 66.754 ,  ),  y: 2648.9
+x: ( 69.6464 , 63.4438 , 65.2372 ,  ),  y: 2625.14
+x: ( 70.0285 , 70.0807 , 71.2172 ,  ),  y: 2985.59
+x: ( 70.1422 , 67.4802 , 72.5991 ,  ),  y: 2943.95
+x: ( 71.114 , 73.4769 , 69.2048 ,  ),  y: 3053.76
+x: ( 71.9271 , 71.1978 , 72.3489 ,  ),  y: 3093.13
+x: ( 72.2791 , 72.7647 , 71.2898 ,  ),  y: 3120.59
+x: ( 74.6362 , 74.6053 , 79.0903 ,  ),  y: 3479.25
+x: ( 75.5165 , 73.3323 , 77.033 ,  ),  y: 3404.73
+x: ( 75.5856 , 78.6626 , 70.0038 ,  ),  y: 3363.52
+x: ( 75.9592 , 72.5124 , 72.3046 ,  ),  y: 3254.54
+x: ( 75.969 , 67.244 , 74.598 ,  ),  y: 3172.37
+x: ( 76.9978 , 80.2064 , 82.1031 ,  ),  y: 3816.82
+x: ( 79.8515 , 77.0606 , 73.766 ,  ),  y: 3550.08
+x: ( 80.0343 , 81.8863 , 79.4137 ,  ),  y: 3873.49
+x: ( 80.5956 , 79.8056 , 75.9939 ,  ),  y: 3731.91
+x: ( 81.7542 , 86.261 , 74.2606 ,  ),  y: 3922.81
+
+Block Information:
+Block base address: 00D241D8  Block average:4941.77  Terminal: 0
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 83.1339 , 84.0303 , 83.2773 ,  ),  y: 4187.28
+x: ( 86.111 , 80.9453 , 84.3176 ,  ),  y: 4219.13
+x: ( 86.9726 , 81.8826 , 80.5868 ,  ),  y: 4154.15
+x: ( 87.1104 , 86.6141 , 92.4668 ,  ),  y: 4733.64
+x: ( 87.1144 , 85.4769 , 83.4742 ,  ),  y: 4373.54
+x: ( 89.5073 , 90.8336 , 95.8313 ,  ),  y: 5099.68
+x: ( 90.0723 , 91.7172 , 97.4183 ,  ),  y: 5208.61
+x: ( 91.5652 , 87.2646 , 89.9332 ,  ),  y: 4821.26
+x: ( 93.5894 , 89.4777 , 95.5188 ,  ),  y: 5179.2
+x: ( 93.8116 , 95.6014 , 92.6773 ,  ),  y: 5308.27
+x: ( 93.8434 , 91.2207 , 98.8113 ,  ),  y: 5375.35
+x: ( 95.2656 , 95.2528 , 88.6829 ,  ),  y: 5200.54
+x: ( 96.1457 , 101.379 , 98.9175 ,  ),  y: 5855.9
+x: ( 96.3746 , 87.4097 , 91.8526 ,  ),  y: 5068.46
+x: ( 96.4935 , 90.2573 , 96.1866 ,  ),  y: 5341.57
+
+Block Information:
+Block base address: 00D2F5F0  Block average:2735.57  Terminal: 0
+Dimention: 0 |  Splitting Line:73.4577 |  Index:12
+Direction: Left
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 58.2422 , 68.1862 , 62.9211 ,  ),  y: 2395.77
+x: ( 64.7659 , 63.3269 , 63.6142 ,  ),  y: 2449.05
+x: ( 65.0629 , 62.5392 , 63.0229 ,  ),  y: 2431.55
+x: ( 65.1443 , 66.4178 , 67.8352 ,  ),  y: 2655.03
+x: ( 67.2658 , 59.861 , 63.3202 ,  ),  y: 2424.36
+x: ( 67.6336 , 64.8176 , 66.754 ,  ),  y: 2648.9
+x: ( 69.6464 , 63.4438 , 65.2372 ,  ),  y: 2625.14
+x: ( 70.0285 , 70.0807 , 71.2172 ,  ),  y: 2985.59
+x: ( 70.1422 , 67.4802 , 72.5991 ,  ),  y: 2943.95
+x: ( 71.114 , 73.4769 , 69.2048 ,  ),  y: 3053.76
+x: ( 71.9271 , 71.1978 , 72.3489 ,  ),  y: 3093.13
+x: ( 72.2791 , 72.7647 , 71.2898 ,  ),  y: 3120.59
+
+Block Information:
+Block base address: 00D2F5F0  Block average:3556.95  Terminal: 0
+Dimention: 0 |  Splitting Line:73.4577 |  Index:12
+Direction: Right
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 74.6362 , 74.6053 , 79.0903 ,  ),  y: 3479.25
+x: ( 75.5165 , 73.3323 , 77.033 ,  ),  y: 3404.73
+x: ( 75.5856 , 78.6626 , 70.0038 ,  ),  y: 3363.52
+x: ( 75.9592 , 72.5124 , 72.3046 ,  ),  y: 3254.54
+x: ( 75.969 , 67.244 , 74.598 ,  ),  y: 3172.37
+x: ( 76.9978 , 80.2064 , 82.1031 ,  ),  y: 3816.82
+x: ( 79.8515 , 77.0606 , 73.766 ,  ),  y: 3550.08
+x: ( 80.0343 , 81.8863 , 79.4137 ,  ),  y: 3873.49
+x: ( 80.5956 , 79.8056 , 75.9939 ,  ),  y: 3731.91
+x: ( 81.7542 , 86.261 , 74.2606 ,  ),  y: 3922.81
+
+Block Information:
+Block base address: 00D2F740  Block average:2518.54  Terminal: 0
+Dimention: 2 |  Splitting Line:68.52 |  Index:7
+Direction: Left
+Dimention: 0 |  Splitting Line:73.4577 |  Index:12
+Direction: Left
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 58.2422 , 68.1862 , 62.9211 ,  ),  y: 2395.77
+x: ( 65.0629 , 62.5392 , 63.0229 ,  ),  y: 2431.55
+x: ( 67.2658 , 59.861 , 63.3202 ,  ),  y: 2424.36
+x: ( 64.7659 , 63.3269 , 63.6142 ,  ),  y: 2449.05
+x: ( 69.6464 , 63.4438 , 65.2372 ,  ),  y: 2625.14
+x: ( 67.6336 , 64.8176 , 66.754 ,  ),  y: 2648.9
+x: ( 65.1443 , 66.4178 , 67.8352 ,  ),  y: 2655.03
+
+Block Information:
+Block base address: 00D2F740  Block average:3039.41  Terminal: 0
+Dimention: 2 |  Splitting Line:68.52 |  Index:7
+Direction: Right
+Dimention: 0 |  Splitting Line:73.4577 |  Index:12
+Direction: Left
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 71.114 , 73.4769 , 69.2048 ,  ),  y: 3053.76
+x: ( 70.0285 , 70.0807 , 71.2172 ,  ),  y: 2985.59
+x: ( 72.2791 , 72.7647 , 71.2898 ,  ),  y: 3120.59
+x: ( 71.9271 , 71.1978 , 72.3489 ,  ),  y: 3093.13
+x: ( 70.1422 , 67.4802 , 72.5991 ,  ),  y: 2943.95
+
+Block Information:
+Block base address: 00D2F2E0  Block average:2425.18  Terminal: 1
+Dimention: 2 |  Splitting Line:64.4257 |  Index:4
+Direction: Left
+Dimention: 2 |  Splitting Line:68.52 |  Index:7
+Direction: Left
+Dimention: 0 |  Splitting Line:73.4577 |  Index:12
+Direction: Left
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 58.2422 , 68.1862 , 62.9211 ,  ),  y: 2395.77
+x: ( 65.0629 , 62.5392 , 63.0229 ,  ),  y: 2431.55
+x: ( 67.2658 , 59.861 , 63.3202 ,  ),  y: 2424.36
+x: ( 64.7659 , 63.3269 , 63.6142 ,  ),  y: 2449.05
+
+Block Information:
+Block base address: 00D2F2E0  Block average:2643.03  Terminal: 1
+Dimention: 2 |  Splitting Line:64.4257 |  Index:4
+Direction: Right
+Dimention: 2 |  Splitting Line:68.52 |  Index:7
+Direction: Left
+Dimention: 0 |  Splitting Line:73.4577 |  Index:12
+Direction: Left
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 69.6464 , 63.4438 , 65.2372 ,  ),  y: 2625.14
+x: ( 67.6336 , 64.8176 , 66.754 ,  ),  y: 2648.9
+x: ( 65.1443 , 66.4178 , 67.8352 ,  ),  y: 2655.03
+
+Block Information:
+Block base address: 00D2F7E8  Block average:2964.77  Terminal: 1
+Dimention: 0 |  Splitting Line:70.6281 |  Index:2
+Direction: Left
+Dimention: 2 |  Splitting Line:68.52 |  Index:7
+Direction: Right
+Dimention: 0 |  Splitting Line:73.4577 |  Index:12
+Direction: Left
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 70.0285 , 70.0807 , 71.2172 ,  ),  y: 2985.59
+x: ( 70.1422 , 67.4802 , 72.5991 ,  ),  y: 2943.95
+
+Block Information:
+Block base address: 00D2F7E8  Block average:3089.16  Terminal: 1
+Dimention: 0 |  Splitting Line:70.6281 |  Index:2
+Direction: Right
+Dimention: 2 |  Splitting Line:68.52 |  Index:7
+Direction: Right
+Dimention: 0 |  Splitting Line:73.4577 |  Index:12
+Direction: Left
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 71.114 , 73.4769 , 69.2048 ,  ),  y: 3053.76
+x: ( 71.9271 , 71.1978 , 72.3489 ,  ),  y: 3093.13
+x: ( 72.2791 , 72.7647 , 71.2898 ,  ),  y: 3120.59
+
+Block Information:
+Block base address: 00D2F7B0  Block average:3370.75  Terminal: 0
+Dimention: 1 |  Splitting Line:79.2341 |  Index:6
+Direction: Left
+Dimention: 0 |  Splitting Line:73.4577 |  Index:12
+Direction: Right
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 75.969 , 67.244 , 74.598 ,  ),  y: 3172.37
+x: ( 75.9592 , 72.5124 , 72.3046 ,  ),  y: 3254.54
+x: ( 75.5165 , 73.3323 , 77.033 ,  ),  y: 3404.73
+x: ( 74.6362 , 74.6053 , 79.0903 ,  ),  y: 3479.25
+x: ( 79.8515 , 77.0606 , 73.766 ,  ),  y: 3550.08
+x: ( 75.5856 , 78.6626 , 70.0038 ,  ),  y: 3363.52
+
+Block Information:
+Block base address: 00D2F7B0  Block average:3836.26  Terminal: 1
+Dimention: 1 |  Splitting Line:79.2341 |  Index:6
+Direction: Right
+Dimention: 0 |  Splitting Line:73.4577 |  Index:12
+Direction: Right
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 80.5956 , 79.8056 , 75.9939 ,  ),  y: 3731.91
+x: ( 76.9978 , 80.2064 , 82.1031 ,  ),  y: 3816.82
+x: ( 80.0343 , 81.8863 , 79.4137 ,  ),  y: 3873.49
+x: ( 81.7542 , 86.261 , 74.2606 ,  ),  y: 3922.81
+
+Block Information:
+Block base address: 00D2F858  Block average:3213.46  Terminal: 1
+Dimention: 1 |  Splitting Line:72.9223 |  Index:2
+Direction: Left
+Dimention: 1 |  Splitting Line:79.2341 |  Index:6
+Direction: Left
+Dimention: 0 |  Splitting Line:73.4577 |  Index:12
+Direction: Right
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 75.969 , 67.244 , 74.598 ,  ),  y: 3172.37
+x: ( 75.9592 , 72.5124 , 72.3046 ,  ),  y: 3254.54
+
+Block Information:
+Block base address: 00D2F858  Block average:3449.4  Terminal: 1
+Dimention: 1 |  Splitting Line:72.9223 |  Index:2
+Direction: Right
+Dimention: 1 |  Splitting Line:79.2341 |  Index:6
+Direction: Left
+Dimention: 0 |  Splitting Line:73.4577 |  Index:12
+Direction: Right
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Left
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 75.5165 , 73.3323 , 77.033 ,  ),  y: 3404.73
+x: ( 74.6362 , 74.6053 , 79.0903 ,  ),  y: 3479.25
+x: ( 79.8515 , 77.0606 , 73.766 ,  ),  y: 3550.08
+x: ( 75.5856 , 78.6626 , 70.0038 ,  ),  y: 3363.52
+
+Block Information:
+Block base address: 00D2F820  Block average:4414.83  Terminal: 0
+Dimention: 1 |  Splitting Line:87.3372 |  Index:6
+Direction: Left
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 86.111 , 80.9453 , 84.3176 ,  ),  y: 4219.13
+x: ( 86.9726 , 81.8826 , 80.5868 ,  ),  y: 4154.15
+x: ( 83.1339 , 84.0303 , 83.2773 ,  ),  y: 4187.28
+x: ( 87.1144 , 85.4769 , 83.4742 ,  ),  y: 4373.54
+x: ( 87.1104 , 86.6141 , 92.4668 ,  ),  y: 4733.64
+x: ( 91.5652 , 87.2646 , 89.9332 ,  ),  y: 4821.26
+
+Block Information:
+Block base address: 00D2F820  Block average:5293.06  Terminal: 0
+Dimention: 1 |  Splitting Line:87.3372 |  Index:6
+Direction: Right
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 96.3746 , 87.4097 , 91.8526 ,  ),  y: 5068.46
+x: ( 93.5894 , 89.4777 , 95.5188 ,  ),  y: 5179.2
+x: ( 96.4935 , 90.2573 , 96.1866 ,  ),  y: 5341.57
+x: ( 89.5073 , 90.8336 , 95.8313 ,  ),  y: 5099.68
+x: ( 93.8434 , 91.2207 , 98.8113 ,  ),  y: 5375.35
+x: ( 90.0723 , 91.7172 , 97.4183 ,  ),  y: 5208.61
+x: ( 95.2656 , 95.2528 , 88.6829 ,  ),  y: 5200.54
+x: ( 93.8116 , 95.6014 , 92.6773 ,  ),  y: 5308.27
+x: ( 96.1457 , 101.379 , 98.9175 ,  ),  y: 5855.9
+
+Block Information:
+Block base address: 00D2F660  Block average:4233.53  Terminal: 1
+Dimention: 1 |  Splitting Line:86.0455 |  Index:4
+Direction: Left
+Dimention: 1 |  Splitting Line:87.3372 |  Index:6
+Direction: Left
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 86.111 , 80.9453 , 84.3176 ,  ),  y: 4219.13
+x: ( 86.9726 , 81.8826 , 80.5868 ,  ),  y: 4154.15
+x: ( 83.1339 , 84.0303 , 83.2773 ,  ),  y: 4187.28
+x: ( 87.1144 , 85.4769 , 83.4742 ,  ),  y: 4373.54
+
+Block Information:
+Block base address: 00D2F660  Block average:4777.45  Terminal: 1
+Dimention: 1 |  Splitting Line:86.0455 |  Index:4
+Direction: Right
+Dimention: 1 |  Splitting Line:87.3372 |  Index:6
+Direction: Left
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 87.1104 , 86.6141 , 92.4668 ,  ),  y: 4733.64
+x: ( 91.5652 , 87.2646 , 89.9332 ,  ),  y: 4821.26
+
+Block Information:
+Block base address: 00D2F698  Block average:5200.9  Terminal: 0
+Dimention: 2 |  Splitting Line:98.1148 |  Index:7
+Direction: Left
+Dimention: 1 |  Splitting Line:87.3372 |  Index:6
+Direction: Right
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 95.2656 , 95.2528 , 88.6829 ,  ),  y: 5200.54
+x: ( 96.3746 , 87.4097 , 91.8526 ,  ),  y: 5068.46
+x: ( 93.8116 , 95.6014 , 92.6773 ,  ),  y: 5308.27
+x: ( 93.5894 , 89.4777 , 95.5188 ,  ),  y: 5179.2
+x: ( 89.5073 , 90.8336 , 95.8313 ,  ),  y: 5099.68
+x: ( 96.4935 , 90.2573 , 96.1866 ,  ),  y: 5341.57
+x: ( 90.0723 , 91.7172 , 97.4183 ,  ),  y: 5208.61
+
+Block Information:
+Block base address: 00D2F698  Block average:5615.62  Terminal: 1
+Dimention: 2 |  Splitting Line:98.1148 |  Index:7
+Direction: Right
+Dimention: 1 |  Splitting Line:87.3372 |  Index:6
+Direction: Right
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 93.8434 , 91.2207 , 98.8113 ,  ),  y: 5375.35
+x: ( 96.1457 , 101.379 , 98.9175 ,  ),  y: 5855.9
+
+Block Information:
+Block base address: 00D2F6D0  Block average:5068.46  Terminal: 1
+Dimention: 1 |  Splitting Line:88.4437 |  Index:1
+Direction: Left
+Dimention: 2 |  Splitting Line:98.1148 |  Index:7
+Direction: Left
+Dimention: 1 |  Splitting Line:87.3372 |  Index:6
+Direction: Right
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 96.3746 , 87.4097 , 91.8526 ,  ),  y: 5068.46
+
+Block Information:
+Block base address: 00D2F6D0  Block average:5222.98  Terminal: 0
+Dimention: 1 |  Splitting Line:88.4437 |  Index:1
+Direction: Right
+Dimention: 2 |  Splitting Line:98.1148 |  Index:7
+Direction: Left
+Dimention: 1 |  Splitting Line:87.3372 |  Index:6
+Direction: Right
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 93.5894 , 89.4777 , 95.5188 ,  ),  y: 5179.2
+x: ( 96.4935 , 90.2573 , 96.1866 ,  ),  y: 5341.57
+x: ( 89.5073 , 90.8336 , 95.8313 ,  ),  y: 5099.68
+x: ( 90.0723 , 91.7172 , 97.4183 ,  ),  y: 5208.61
+x: ( 95.2656 , 95.2528 , 88.6829 ,  ),  y: 5200.54
+x: ( 93.8116 , 95.6014 , 92.6773 ,  ),  y: 5308.27
+
+Block Information:
+Block base address: 00D2F388  Block average:5162.5  Terminal: 1
+Dimention: 0 |  Splitting Line:93.7005 |  Index:3
+Direction: Left
+Dimention: 1 |  Splitting Line:88.4437 |  Index:1
+Direction: Right
+Dimention: 2 |  Splitting Line:98.1148 |  Index:7
+Direction: Left
+Dimention: 1 |  Splitting Line:87.3372 |  Index:6
+Direction: Right
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 89.5073 , 90.8336 , 95.8313 ,  ),  y: 5099.68
+x: ( 90.0723 , 91.7172 , 97.4183 ,  ),  y: 5208.61
+x: ( 93.5894 , 89.4777 , 95.5188 ,  ),  y: 5179.2
+
+Block Information:
+Block base address: 00D2F388  Block average:5283.46  Terminal: 1
+Dimention: 0 |  Splitting Line:93.7005 |  Index:3
+Direction: Right
+Dimention: 1 |  Splitting Line:88.4437 |  Index:1
+Direction: Right
+Dimention: 2 |  Splitting Line:98.1148 |  Index:7
+Direction: Left
+Dimention: 1 |  Splitting Line:87.3372 |  Index:6
+Direction: Right
+Dimention: 0 |  Splitting Line:82.444 |  Index:22
+Direction: Right
+Dimention: 2 |  Splitting Line:61.1672 |  Index:61
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Left
+x: ( 93.8116 , 95.6014 , 92.6773 ,  ),  y: 5308.27
+x: ( 95.2656 , 95.2528 , 88.6829 ,  ),  y: 5200.54
+x: ( 96.4935 , 90.2573 , 96.1866 ,  ),  y: 5341.57
+
+Block Information:
+Block base address: 00D241A0  Block average:7534.23  Terminal: 0
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 98.7582 , 93.7111 , 98.6642 ,  ),  y: 5649.55
+x: ( 110.868 , 94.1161 , 103.133 ,  ),  y: 6355.27
+x: ( 97.4271 , 97.0537 , 100.593 ,  ),  y: 5810.54
+x: ( 97.2012 , 99.0395 , 96.3353 ,  ),  y: 5711.52
+x: ( 107.799 , 100.44 , 105.039 ,  ),  y: 6560
+x: ( 107.417 , 102.381 , 105.964 ,  ),  y: 6648.69
+x: ( 100.314 , 103.115 , 97.5301 ,  ),  y: 6037.78
+x: ( 99.5532 , 104.451 , 102.178 ,  ),  y: 6250.78
+x: ( 111.17 , 107.462 , 102.806 ,  ),  y: 6904.84
+x: ( 111.844 , 109.416 , 114.909 ,  ),  y: 7537.2
+x: ( 103.78 , 109.856 , 103.061 ,  ),  y: 6690.68
+x: ( 103.985 , 110.948 , 105.83 ,  ),  y: 6869.69
+x: ( 110.461 , 112.749 , 110.793 ,  ),  y: 7441.22
+x: ( 111.858 , 112.982 , 111.594 ,  ),  y: 7548.23
+x: ( 114.216 , 115.042 , 109.448 ,  ),  y: 7662.13
+x: ( 118.437 , 115.13 , 120.102 ,  ),  y: 8350.11
+x: ( 114.291 , 115.71 , 115.099 ,  ),  y: 7933.26
+x: ( 110.545 , 116.025 , 110.282 ,  ),  y: 7569.01
+x: ( 112.237 , 117.521 , 116.342 ,  ),  y: 7986.37
+x: ( 122.595 , 117.663 , 125.432 ,  ),  y: 8921.38
+x: ( 123.774 , 118.698 , 123.005 ,  ),  y: 8908.89
+x: ( 116.86 , 118.753 , 117.571 ,  ),  y: 8311.81
+x: ( 119.834 , 119.6 , 128.819 ,  ),  y: 9053.42
+x: ( 115.88 , 119.653 , 118.838 ,  ),  y: 8372.13
+x: ( 124.747 , 121.686 , 124.13 ,  ),  y: 9155.27
+x: ( 118.038 , 122.502 , 121.165 ,  ),  y: 8723.91
+x: ( 120.957 , 123.32 , 124.493 ,  ),  y: 9065.15
+x: ( 122.886 , 123.963 , 119.038 ,  ),  y: 8929.64
+
+Block Information:
+Block base address: 00D241A0  Block average:11429.4  Terminal: 0
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 124.579 , 125.321 , 128.154 ,  ),  y: 9525.76
+x: ( 131.606 , 127.647 , 126.779 ,  ),  y: 9934.86
+x: ( 127.254 , 128.261 , 132.039 ,  ),  y: 10012.9
+x: ( 129.026 , 128.545 , 125.308 ,  ),  y: 9772.41
+x: ( 131.776 , 131.612 , 133.091 ,  ),  y: 10476.4
+x: ( 135.725 , 131.976 , 135.37 ,  ),  y: 10831.9
+x: ( 126.361 , 133.347 , 129.141 ,  ),  y: 10079.1
+x: ( 134.872 , 134.885 , 133.233 ,  ),  y: 10820.5
+x: ( 132.028 , 135.31 , 135.706 ,  ),  y: 10833.1
+x: ( 135.82 , 135.905 , 136.963 ,  ),  y: 11133.4
+x: ( 136.78 , 136.341 , 132.821 ,  ),  y: 10990.7
+x: ( 134.402 , 136.941 , 129.257 ,  ),  y: 10700.7
+x: ( 138.104 , 137.642 , 135.738 ,  ),  y: 11288.9
+x: ( 131.185 , 138.689 , 127.111 ,  ),  y: 10524.4
+x: ( 146.59 , 140.652 , 144.928 ,  ),  y: 12455.3
+x: ( 150.109 , 141.109 , 145.031 ,  ),  y: 12696
+x: ( 146.844 , 142.151 , 145.561 ,  ),  y: 12592.2
+x: ( 146.661 , 143.788 , 148.478 ,  ),  y: 12842.6
+x: ( 139.005 , 146.274 , 140.093 ,  ),  y: 12073.4
+x: ( 141.792 , 146.459 , 142.309 ,  ),  y: 12354.7
+x: ( 139.991 , 146.568 , 142.511 ,  ),  y: 12272.9
+x: ( 147.021 , 147.098 , 150.82 ,  ),  y: 13197.1
+x: ( 154.167 , 147.694 , 150.147 ,  ),  y: 13628
+x: ( 147.802 , 147.933 , 150.338 ,  ),  y: 13269.3
+
+Block Information:
+Block base address: 00D2F430  Block average:6317.21  Terminal: 0
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Left
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 97.2012 , 99.0395 , 96.3353 ,  ),  y: 5711.52
+x: ( 100.314 , 103.115 , 97.5301 ,  ),  y: 6037.78
+x: ( 98.7582 , 93.7111 , 98.6642 ,  ),  y: 5649.55
+x: ( 97.4271 , 97.0537 , 100.593 ,  ),  y: 5810.54
+x: ( 99.5532 , 104.451 , 102.178 ,  ),  y: 6250.78
+x: ( 111.17 , 107.462 , 102.806 ,  ),  y: 6904.84
+x: ( 103.78 , 109.856 , 103.061 ,  ),  y: 6690.68
+x: ( 110.868 , 94.1161 , 103.133 ,  ),  y: 6355.27
+x: ( 107.799 , 100.44 , 105.039 ,  ),  y: 6560
+x: ( 103.985 , 110.948 , 105.83 ,  ),  y: 6869.69
+x: ( 107.417 , 102.381 , 105.964 ,  ),  y: 6648.69
+
+Block Information:
+Block base address: 00D2F430  Block average:8321.71  Terminal: 0
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 114.216 , 115.042 , 109.448 ,  ),  y: 7662.13
+x: ( 110.545 , 116.025 , 110.282 ,  ),  y: 7569.01
+x: ( 110.461 , 112.749 , 110.793 ,  ),  y: 7441.22
+x: ( 111.858 , 112.982 , 111.594 ,  ),  y: 7548.23
+x: ( 111.844 , 109.416 , 114.909 ,  ),  y: 7537.2
+x: ( 114.291 , 115.71 , 115.099 ,  ),  y: 7933.26
+x: ( 112.237 , 117.521 , 116.342 ,  ),  y: 7986.37
+x: ( 116.86 , 118.753 , 117.571 ,  ),  y: 8311.81
+x: ( 115.88 , 119.653 , 118.838 ,  ),  y: 8372.13
+x: ( 122.886 , 123.963 , 119.038 ,  ),  y: 8929.64
+x: ( 118.437 , 115.13 , 120.102 ,  ),  y: 8350.11
+x: ( 118.038 , 122.502 , 121.165 ,  ),  y: 8723.91
+x: ( 123.774 , 118.698 , 123.005 ,  ),  y: 8908.89
+x: ( 124.747 , 121.686 , 124.13 ,  ),  y: 9155.27
+x: ( 120.957 , 123.32 , 124.493 ,  ),  y: 9065.15
+x: ( 122.595 , 117.663 , 125.432 ,  ),  y: 8921.38
+x: ( 119.834 , 119.6 , 128.819 ,  ),  y: 9053.42
+
+Block Information:
+Block base address: 00D2F4D8  Block average:5802.35  Terminal: 1
+Dimention: 2 |  Splitting Line:101.386 |  Index:4
+Direction: Left
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Left
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 97.2012 , 99.0395 , 96.3353 ,  ),  y: 5711.52
+x: ( 100.314 , 103.115 , 97.5301 ,  ),  y: 6037.78
+x: ( 98.7582 , 93.7111 , 98.6642 ,  ),  y: 5649.55
+x: ( 97.4271 , 97.0537 , 100.593 ,  ),  y: 5810.54
+
+Block Information:
+Block base address: 00D2F4D8  Block average:6611.42  Terminal: 0
+Dimention: 2 |  Splitting Line:101.386 |  Index:4
+Direction: Right
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Left
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 99.5532 , 104.451 , 102.178 ,  ),  y: 6250.78
+x: ( 111.17 , 107.462 , 102.806 ,  ),  y: 6904.84
+x: ( 103.78 , 109.856 , 103.061 ,  ),  y: 6690.68
+x: ( 110.868 , 94.1161 , 103.133 ,  ),  y: 6355.27
+x: ( 107.799 , 100.44 , 105.039 ,  ),  y: 6560
+x: ( 103.985 , 110.948 , 105.83 ,  ),  y: 6869.69
+x: ( 107.417 , 102.381 , 105.964 ,  ),  y: 6648.69
+
+Block Information:
+Block base address: 00D24018  Block average:6453.68  Terminal: 1
+Dimention: 1 |  Splitting Line:105.956 |  Index:4
+Direction: Left
+Dimention: 2 |  Splitting Line:101.386 |  Index:4
+Direction: Right
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Left
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 110.868 , 94.1161 , 103.133 ,  ),  y: 6355.27
+x: ( 107.799 , 100.44 , 105.039 ,  ),  y: 6560
+x: ( 107.417 , 102.381 , 105.964 ,  ),  y: 6648.69
+x: ( 99.5532 , 104.451 , 102.178 ,  ),  y: 6250.78
+
+Block Information:
+Block base address: 00D24018  Block average:6821.74  Terminal: 1
+Dimention: 1 |  Splitting Line:105.956 |  Index:4
+Direction: Right
+Dimention: 2 |  Splitting Line:101.386 |  Index:4
+Direction: Right
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Left
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 111.17 , 107.462 , 102.806 ,  ),  y: 6904.84
+x: ( 103.78 , 109.856 , 103.061 ,  ),  y: 6690.68
+x: ( 103.985 , 110.948 , 105.83 ,  ),  y: 6869.69
+
+Block Information:
+Block base address: 00D2F970  Block average:7668.2  Terminal: 0
+Dimention: 0 |  Splitting Line:115.085 |  Index:7
+Direction: Left
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 110.461 , 112.749 , 110.793 ,  ),  y: 7441.22
+x: ( 110.545 , 116.025 , 110.282 ,  ),  y: 7569.01
+x: ( 111.844 , 109.416 , 114.909 ,  ),  y: 7537.2
+x: ( 111.858 , 112.982 , 111.594 ,  ),  y: 7548.23
+x: ( 112.237 , 117.521 , 116.342 ,  ),  y: 7986.37
+x: ( 114.216 , 115.042 , 109.448 ,  ),  y: 7662.13
+x: ( 114.291 , 115.71 , 115.099 ,  ),  y: 7933.26
+
+Block Information:
+Block base address: 00D2F970  Block average:8779.17  Terminal: 0
+Dimention: 0 |  Splitting Line:115.085 |  Index:7
+Direction: Right
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 115.88 , 119.653 , 118.838 ,  ),  y: 8372.13
+x: ( 116.86 , 118.753 , 117.571 ,  ),  y: 8311.81
+x: ( 118.038 , 122.502 , 121.165 ,  ),  y: 8723.91
+x: ( 118.437 , 115.13 , 120.102 ,  ),  y: 8350.11
+x: ( 119.834 , 119.6 , 128.819 ,  ),  y: 9053.42
+x: ( 120.957 , 123.32 , 124.493 ,  ),  y: 9065.15
+x: ( 122.595 , 117.663 , 125.432 ,  ),  y: 8921.38
+x: ( 122.886 , 123.963 , 119.038 ,  ),  y: 8929.64
+x: ( 123.774 , 118.698 , 123.005 ,  ),  y: 8908.89
+x: ( 124.747 , 121.686 , 124.13 ,  ),  y: 9155.27
+
+Block Information:
+Block base address: 00D314B0  Block average:7551.56  Terminal: 0
+Dimention: 2 |  Splitting Line:115.004 |  Index:5
+Direction: Left
+Dimention: 0 |  Splitting Line:115.085 |  Index:7
+Direction: Left
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 114.216 , 115.042 , 109.448 ,  ),  y: 7662.13
+x: ( 110.545 , 116.025 , 110.282 ,  ),  y: 7569.01
+x: ( 110.461 , 112.749 , 110.793 ,  ),  y: 7441.22
+x: ( 111.858 , 112.982 , 111.594 ,  ),  y: 7548.23
+x: ( 111.844 , 109.416 , 114.909 ,  ),  y: 7537.2
+
+Block Information:
+Block base address: 00D314B0  Block average:7959.81  Terminal: 1
+Dimention: 2 |  Splitting Line:115.004 |  Index:5
+Direction: Right
+Dimention: 0 |  Splitting Line:115.085 |  Index:7
+Direction: Left
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 114.291 , 115.71 , 115.099 ,  ),  y: 7933.26
+x: ( 112.237 , 117.521 , 116.342 ,  ),  y: 7986.37
+
+Block Information:
+Block base address: 00D31868  Block average:7662.13  Terminal: 1
+Dimention: 2 |  Splitting Line:109.865 |  Index:1
+Direction: Left
+Dimention: 2 |  Splitting Line:115.004 |  Index:5
+Direction: Left
+Dimention: 0 |  Splitting Line:115.085 |  Index:7
+Direction: Left
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 114.216 , 115.042 , 109.448 ,  ),  y: 7662.13
+
+Block Information:
+Block base address: 00D31868  Block average:7523.91  Terminal: 1
+Dimention: 2 |  Splitting Line:109.865 |  Index:1
+Direction: Right
+Dimention: 2 |  Splitting Line:115.004 |  Index:5
+Direction: Left
+Dimention: 0 |  Splitting Line:115.085 |  Index:7
+Direction: Left
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 110.545 , 116.025 , 110.282 ,  ),  y: 7569.01
+x: ( 110.461 , 112.749 , 110.793 ,  ),  y: 7441.22
+x: ( 111.858 , 112.982 , 111.594 ,  ),  y: 7548.23
+x: ( 111.844 , 109.416 , 114.909 ,  ),  y: 7537.2
+
+Block Information:
+Block base address: 00D31478  Block average:8439.49  Terminal: 1
+Dimention: 0 |  Splitting Line:119.136 |  Index:4
+Direction: Left
+Dimention: 0 |  Splitting Line:115.085 |  Index:7
+Direction: Right
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 115.88 , 119.653 , 118.838 ,  ),  y: 8372.13
+x: ( 116.86 , 118.753 , 117.571 ,  ),  y: 8311.81
+x: ( 118.038 , 122.502 , 121.165 ,  ),  y: 8723.91
+x: ( 118.437 , 115.13 , 120.102 ,  ),  y: 8350.11
+
+Block Information:
+Block base address: 00D31478  Block average:9005.62  Terminal: 0
+Dimention: 0 |  Splitting Line:119.136 |  Index:4
+Direction: Right
+Dimention: 0 |  Splitting Line:115.085 |  Index:7
+Direction: Right
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 119.834 , 119.6 , 128.819 ,  ),  y: 9053.42
+x: ( 120.957 , 123.32 , 124.493 ,  ),  y: 9065.15
+x: ( 122.595 , 117.663 , 125.432 ,  ),  y: 8921.38
+x: ( 122.886 , 123.963 , 119.038 ,  ),  y: 8929.64
+x: ( 123.774 , 118.698 , 123.005 ,  ),  y: 8908.89
+x: ( 124.747 , 121.686 , 124.13 ,  ),  y: 9155.27
+
+Block Information:
+Block base address: 00D318A0  Block average:8915.14  Terminal: 1
+Dimention: 1 |  Splitting Line:119.149 |  Index:2
+Direction: Left
+Dimention: 0 |  Splitting Line:119.136 |  Index:4
+Direction: Right
+Dimention: 0 |  Splitting Line:115.085 |  Index:7
+Direction: Right
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 122.595 , 117.663 , 125.432 ,  ),  y: 8921.38
+x: ( 123.774 , 118.698 , 123.005 ,  ),  y: 8908.89
+
+Block Information:
+Block base address: 00D318A0  Block average:9050.87  Terminal: 1
+Dimention: 1 |  Splitting Line:119.149 |  Index:2
+Direction: Right
+Dimention: 0 |  Splitting Line:119.136 |  Index:4
+Direction: Right
+Dimention: 0 |  Splitting Line:115.085 |  Index:7
+Direction: Right
+Dimention: 2 |  Splitting Line:107.706 |  Index:11
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Left
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 119.834 , 119.6 , 128.819 ,  ),  y: 9053.42
+x: ( 124.747 , 121.686 , 124.13 ,  ),  y: 9155.27
+x: ( 120.957 , 123.32 , 124.493 ,  ),  y: 9065.15
+x: ( 122.886 , 123.963 , 119.038 ,  ),  y: 8929.64
+
+Block Information:
+Block base address: 00D2F4A0  Block average:10494.6  Terminal: 0
+Dimention: 0 |  Splitting Line:138.555 |  Index:14
+Direction: Left
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 124.579 , 125.321 , 128.154 ,  ),  y: 9525.76
+x: ( 126.361 , 133.347 , 129.141 ,  ),  y: 10079.1
+x: ( 127.254 , 128.261 , 132.039 ,  ),  y: 10012.9
+x: ( 129.026 , 128.545 , 125.308 ,  ),  y: 9772.41
+x: ( 131.185 , 138.689 , 127.111 ,  ),  y: 10524.4
+x: ( 131.606 , 127.647 , 126.779 ,  ),  y: 9934.86
+x: ( 131.776 , 131.612 , 133.091 ,  ),  y: 10476.4
+x: ( 132.028 , 135.31 , 135.706 ,  ),  y: 10833.1
+x: ( 134.402 , 136.941 , 129.257 ,  ),  y: 10700.7
+x: ( 134.872 , 134.885 , 133.233 ,  ),  y: 10820.5
+x: ( 135.725 , 131.976 , 135.37 ,  ),  y: 10831.9
+x: ( 135.82 , 135.905 , 136.963 ,  ),  y: 11133.4
+x: ( 136.78 , 136.341 , 132.821 ,  ),  y: 10990.7
+x: ( 138.104 , 137.642 , 135.738 ,  ),  y: 11288.9
+
+Block Information:
+Block base address: 00D2F4A0  Block average:12738.2  Terminal: 0
+Dimention: 0 |  Splitting Line:138.555 |  Index:14
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 139.005 , 146.274 , 140.093 ,  ),  y: 12073.4
+x: ( 139.991 , 146.568 , 142.511 ,  ),  y: 12272.9
+x: ( 141.792 , 146.459 , 142.309 ,  ),  y: 12354.7
+x: ( 146.59 , 140.652 , 144.928 ,  ),  y: 12455.3
+x: ( 146.661 , 143.788 , 148.478 ,  ),  y: 12842.6
+x: ( 146.844 , 142.151 , 145.561 ,  ),  y: 12592.2
+x: ( 147.021 , 147.098 , 150.82 ,  ),  y: 13197.1
+x: ( 147.802 , 147.933 , 150.338 ,  ),  y: 13269.3
+x: ( 150.109 , 141.109 , 145.031 ,  ),  y: 12696
+x: ( 154.167 , 147.694 , 150.147 ,  ),  y: 13628
+
+Block Information:
+Block base address: 00D31980  Block average:9974.9  Terminal: 0
+Dimention: 0 |  Splitting Line:131.691 |  Index:6
+Direction: Left
+Dimention: 0 |  Splitting Line:138.555 |  Index:14
+Direction: Left
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 124.579 , 125.321 , 128.154 ,  ),  y: 9525.76
+x: ( 126.361 , 133.347 , 129.141 ,  ),  y: 10079.1
+x: ( 127.254 , 128.261 , 132.039 ,  ),  y: 10012.9
+x: ( 129.026 , 128.545 , 125.308 ,  ),  y: 9772.41
+x: ( 131.185 , 138.689 , 127.111 ,  ),  y: 10524.4
+x: ( 131.606 , 127.647 , 126.779 ,  ),  y: 9934.86
+
+Block Information:
+Block base address: 00D31980  Block average:10884.4  Terminal: 0
+Dimention: 0 |  Splitting Line:131.691 |  Index:6
+Direction: Right
+Dimention: 0 |  Splitting Line:138.555 |  Index:14
+Direction: Left
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 131.776 , 131.612 , 133.091 ,  ),  y: 10476.4
+x: ( 132.028 , 135.31 , 135.706 ,  ),  y: 10833.1
+x: ( 134.402 , 136.941 , 129.257 ,  ),  y: 10700.7
+x: ( 134.872 , 134.885 , 133.233 ,  ),  y: 10820.5
+x: ( 135.725 , 131.976 , 135.37 ,  ),  y: 10831.9
+x: ( 135.82 , 135.905 , 136.963 ,  ),  y: 11133.4
+x: ( 136.78 , 136.341 , 132.821 ,  ),  y: 10990.7
+x: ( 138.104 , 137.642 , 135.738 ,  ),  y: 11288.9
+
+Block Information:
+Block base address: 00D31B08  Block average:9811.47  Terminal: 1
+Dimention: 1 |  Splitting Line:130.946 |  Index:4
+Direction: Left
+Dimention: 0 |  Splitting Line:131.691 |  Index:6
+Direction: Left
+Dimention: 0 |  Splitting Line:138.555 |  Index:14
+Direction: Left
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 124.579 , 125.321 , 128.154 ,  ),  y: 9525.76
+x: ( 131.606 , 127.647 , 126.779 ,  ),  y: 9934.86
+x: ( 127.254 , 128.261 , 132.039 ,  ),  y: 10012.9
+x: ( 129.026 , 128.545 , 125.308 ,  ),  y: 9772.41
+
+Block Information:
+Block base address: 00D31B08  Block average:10301.8  Terminal: 1
+Dimention: 1 |  Splitting Line:130.946 |  Index:4
+Direction: Right
+Dimention: 0 |  Splitting Line:131.691 |  Index:6
+Direction: Left
+Dimention: 0 |  Splitting Line:138.555 |  Index:14
+Direction: Left
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 126.361 , 133.347 , 129.141 ,  ),  y: 10079.1
+x: ( 131.185 , 138.689 , 127.111 ,  ),  y: 10524.4
+
+Block Information:
+Block base address: 00D31590  Block average:10732.5  Terminal: 0
+Dimention: 0 |  Splitting Line:135.773 |  Index:5
+Direction: Left
+Dimention: 0 |  Splitting Line:131.691 |  Index:6
+Direction: Right
+Dimention: 0 |  Splitting Line:138.555 |  Index:14
+Direction: Left
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 131.776 , 131.612 , 133.091 ,  ),  y: 10476.4
+x: ( 132.028 , 135.31 , 135.706 ,  ),  y: 10833.1
+x: ( 134.402 , 136.941 , 129.257 ,  ),  y: 10700.7
+x: ( 134.872 , 134.885 , 133.233 ,  ),  y: 10820.5
+x: ( 135.725 , 131.976 , 135.37 ,  ),  y: 10831.9
+
+Block Information:
+Block base address: 00D31590  Block average:11137.7  Terminal: 1
+Dimention: 0 |  Splitting Line:135.773 |  Index:5
+Direction: Right
+Dimention: 0 |  Splitting Line:131.691 |  Index:6
+Direction: Right
+Dimention: 0 |  Splitting Line:138.555 |  Index:14
+Direction: Left
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 135.82 , 135.905 , 136.963 ,  ),  y: 11133.4
+x: ( 136.78 , 136.341 , 132.821 ,  ),  y: 10990.7
+x: ( 138.104 , 137.642 , 135.738 ,  ),  y: 11288.9
+
+Block Information:
+Block base address: 00D31910  Block average:10476.4  Terminal: 1
+Dimention: 0 |  Splitting Line:1.24365e+33 |  Index:1
+Direction: Left
+Dimention: 0 |  Splitting Line:135.773 |  Index:5
+Direction: Left
+Dimention: 0 |  Splitting Line:131.691 |  Index:6
+Direction: Right
+Dimention: 0 |  Splitting Line:138.555 |  Index:14
+Direction: Left
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 131.776 , 131.612 , 133.091 ,  ),  y: 10476.4
+
+Block Information:
+Block base address: 00D31910  Block average:10796.5  Terminal: 1
+Dimention: 0 |  Splitting Line:1.24365e+33 |  Index:1
+Direction: Right
+Dimention: 0 |  Splitting Line:135.773 |  Index:5
+Direction: Left
+Dimention: 0 |  Splitting Line:131.691 |  Index:6
+Direction: Right
+Dimention: 0 |  Splitting Line:138.555 |  Index:14
+Direction: Left
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 132.028 , 135.31 , 135.706 ,  ),  y: 10833.1
+x: ( 134.402 , 136.941 , 129.257 ,  ),  y: 10700.7
+x: ( 134.872 , 134.885 , 133.233 ,  ),  y: 10820.5
+x: ( 135.725 , 131.976 , 135.37 ,  ),  y: 10831.9
+
+Block Information:
+Block base address: 00D31A98  Block average:12469.6  Terminal: 0
+Dimention: 1 |  Splitting Line:146.833 |  Index:7
+Direction: Left
+Dimention: 0 |  Splitting Line:138.555 |  Index:14
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 146.59 , 140.652 , 144.928 ,  ),  y: 12455.3
+x: ( 150.109 , 141.109 , 145.031 ,  ),  y: 12696
+x: ( 146.844 , 142.151 , 145.561 ,  ),  y: 12592.2
+x: ( 146.661 , 143.788 , 148.478 ,  ),  y: 12842.6
+x: ( 139.005 , 146.274 , 140.093 ,  ),  y: 12073.4
+x: ( 141.792 , 146.459 , 142.309 ,  ),  y: 12354.7
+x: ( 139.991 , 146.568 , 142.511 ,  ),  y: 12272.9
+
+Block Information:
+Block base address: 00D31A98  Block average:13364.8  Terminal: 1
+Dimention: 1 |  Splitting Line:146.833 |  Index:7
+Direction: Right
+Dimention: 0 |  Splitting Line:138.555 |  Index:14
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 147.021 , 147.098 , 150.82 ,  ),  y: 13197.1
+x: ( 154.167 , 147.694 , 150.147 ,  ),  y: 13628
+x: ( 147.802 , 147.933 , 150.338 ,  ),  y: 13269.3
+
+Block Information:
+Block base address: 00D318D8  Block average:12289.1  Terminal: 1
+Dimention: 2 |  Splitting Line:144.98 |  Index:4
+Direction: Left
+Dimention: 1 |  Splitting Line:146.833 |  Index:7
+Direction: Left
+Dimention: 0 |  Splitting Line:138.555 |  Index:14
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 139.005 , 146.274 , 140.093 ,  ),  y: 12073.4
+x: ( 141.792 , 146.459 , 142.309 ,  ),  y: 12354.7
+x: ( 139.991 , 146.568 , 142.511 ,  ),  y: 12272.9
+x: ( 146.59 , 140.652 , 144.928 ,  ),  y: 12455.3
+
+Block Information:
+Block base address: 00D318D8  Block average:12710.3  Terminal: 1
+Dimention: 2 |  Splitting Line:144.98 |  Index:4
+Direction: Right
+Dimention: 1 |  Splitting Line:146.833 |  Index:7
+Direction: Left
+Dimention: 0 |  Splitting Line:138.555 |  Index:14
+Direction: Right
+Dimention: 1 |  Splitting Line:124.642 |  Index:28
+Direction: Right
+Dimention: 0 |  Splitting Line:96.8474 |  Index:98
+Direction: Right
+x: ( 150.109 , 141.109 , 145.031 ,  ),  y: 12696
+x: ( 146.844 , 142.151 , 145.561 ,  ),  y: 12592.2
+x: ( 146.661 , 143.788 , 148.478 ,  ),  y: 12842.6
