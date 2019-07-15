@@ -9,14 +9,13 @@ public:
 	Bagging() {};
 	~Bagging() {};
 
-	// Return a batched data points
+	// Divide the whole data into X parts, X is any integer greater or equal to 1.
+	// Return X batches of data points
 	static vector<vector<Point>> Batch(vector<Point> original_data, int batch_size) {
 		int sz = original_data.size();
 		int *order = new int[sz];
 		vector<vector<Point>> Batched = {};
-		for ( int a = 0; a < sz; a += 1 ) {
-			order[a] = a;
-		}
+		for ( int a = 0; a < sz; a += 1 ) { order[a] = a; }
 		for ( int a = 0; a < sz; a += 1 ) {
 			int b = rand() % sz;
 			int temp = order[a];
@@ -34,7 +33,9 @@ public:
 		return Batched;
 	}
 
-
+	// Use the original data to create X batches, X is any integer greater or equal to 1.
+	// There are N datas in each batch. N should less or equal to the size of the original data.
+	// Return X batches of data points
 	static vector<vector<Point>> BootstapBatch(vector<Point> original_data, int bootstap_size, int batch_size) {
 		vector<vector<Point>> Batched = {};
 		for ( int a = 0; a < batch_size; a += 1 ) {

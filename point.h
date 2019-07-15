@@ -131,13 +131,13 @@ public:
 	// mean: mean
 	// sigma: Standard deviation
 
-	static vector<float> Sequence(int lower, int upper, float mean, float sigma) {
+	static vector<float> Sequence(int lower, int upper, float mean, float sigma, int step = 1) {
 		default_random_engine engine{ static_cast<unsigned int>(rand() % 1000) };
 		normal_distribution<float> Noise(mean, sigma);
 
 		vector<float> temp = {};
 		for ( int a = lower; a < upper; a += 1 ) {
-			temp.push_back(a + Noise(engine));
+			temp.push_back(a*step + Noise(engine));
 		}
 		return temp;
 	}
@@ -156,6 +156,7 @@ public:
 			i->y = sum;
 		}
 	}
+
 private:
 
 };
