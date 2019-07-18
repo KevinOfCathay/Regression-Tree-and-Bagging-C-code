@@ -11,14 +11,16 @@
 using namespace std;
 
 struct Point {
-	Point(int Xdata[], int Ydata, int Dimention) {
+	Point(float Xdata[], float Ydata, int Dimention, int DataSize) :y(Ydata) {
 		x = {};
+		// We'd better allocate the space for the vector
+		// prior to pushing back the element
+		x.reserve(DataSize);
 		for ( int a = 0; a < Dimention; a += 1 ) {
 			x.push_back(Xdata[a]);
 		}
-		y = Ydata;
 	}
-	Point(vector<float> Xdata, int Ydata) : x(Xdata), y(Ydata) {};
+	Point(vector<float> Xdata, float Ydata) : x(Xdata), y(Ydata) {};
 
 	// Each point has a series of x and a output y
 	vector<float> x;
@@ -46,12 +48,6 @@ public:
 		}
 		cout << endl;
 	}
-	static void SwapPoints(vector<Point>& VP, int target_idx_A, int target_idx_B) {
-		Point p = VP[target_idx_A];
-		VP[target_idx_A] = VP[target_idx_B];
-		VP[target_idx_B] = p;
-	};
-
 	static void Sort(vector<Point>& VP, int Dimention) {
 		int sz = VP.size();
 		for ( int a = 0; a < sz; a += 1 ) {
@@ -63,8 +59,6 @@ public:
 		}
 	}
 	// Quick sort for points according to a specific dimention (Priority)
-	// It is unknown whether it has a better performance than elementry sort
-	// There will be a significant performance boost if we use Point[] instead of vector<Point>
 	static void QuickPSort(vector<Point>& VP, int dimention, int bottom, int top) {
 		if ( bottom < top ) {
 			int split_point = Split(VP, dimention, bottom, top);
@@ -89,7 +83,8 @@ public:
 		}
 	}
 	static void BulkInit(vector<Point>& VP, int Dimention, int size) {
-		vector<float> zeros = {};
+		vector<float> zeros;
+		zeros.reserve(Dimention);
 		for ( int p = 0; p < Dimention; p += 1 ) {
 			zeros.push_back(0.0);
 		}
@@ -98,7 +93,13 @@ public:
 		}
 	}
 protected:
-	static int Split(vector<Point>& VP, int Dimention, int bottom, int upper) {
+	inline static void SwapPoints(vector<Point>& VP, int target_idx_A, int target_idx_B) {
+		Point p = VP[target_idx_A];
+		VP[target_idx_A] = VP[target_idx_B];
+		VP[target_idx_B] = p;
+	};
+
+	inline static int Split(vector<Point>& VP, int Dimention, int bottom, int upper) {
 		int lo_bottom = bottom + 1; int lo_top = upper;
 		Point pivot_point = VP[bottom];
 		float pivot_number = pivot_point.x[Dimention];
@@ -135,7 +136,8 @@ public:
 		default_random_engine engine{ static_cast<unsigned int>(rand() % 1000) };
 		normal_distribution<float> Noise(mean, sigma);
 
-		vector<float> temp = {};
+		vector<float> temp;
+		temp.reserve(upper - lower);
 		for ( int a = lower; a < upper; a += 1 ) {
 			temp.push_back(a*step + Noise(engine));
 		}
@@ -143,7 +145,7 @@ public:
 	}
 
 	// For a given x data, calculate the corresponding y data
-	static void Quadratic(vector<Point>& VP, float mean, float sigma, float scaler = 1, float bias = 0) {
+	static void Quadratic(vector<Point>& VP, float mean, float sigma, float scaler = 1.0f, float bias = 0.0f) {
 		default_random_engine engine{ static_cast<unsigned int>(rand() % 1000) };
 		normal_distribution<float> Noise(mean, sigma);
 

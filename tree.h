@@ -4,6 +4,7 @@
 
 #include "point.h"
 #include <string>
+#include <list>
 
 /*
 HOW TO USE THIS CLASS
@@ -123,9 +124,9 @@ public:
 		Regression(split_pair.second, total_dimention, 0, split_pair.second.size(), right_block);
 	}
 
-	vector<vector<Block*>> Batch_Regression(vector<vector<Point>> data_batch, int total_dimention, int lower, int upper) {
+	vector<list<Block*>> Batch_Regression(vector<vector<Point>> data_batch, int total_dimention, int lower, int upper) {
 		int sz = data_batch.size();
-		vector<vector<Block*>> temp = {};
+		vector<list<Block*>> temp = {};
 		for ( int a = 0; a < sz; a += 1 ) {
 			Regression(data_batch[a], total_dimention, lower, upper, nullptr);
 			temp.push_back(this->block_list);
@@ -136,31 +137,31 @@ public:
 	}
 	inline void Set_Stopping_Condition(int x) { stopping_condition = x; }
 	void Reset() {
-		int sz = block_list.size();
-		for ( int b = 0; b < sz; b += 1 ) {
-			Block* k = block_list[b]; block_list[b] = nullptr;
+		while ( !block_list.empty() ) {
+			Block* k = block_list.front();
+			block_list.pop_front();
 			delete k;
 		}
-		block_list = {};
 	}
 
 	// Print out all blocks in the tree, including non-terminal block
 	friend ostream& operator << (ostream& os, Regression_Tree& t) {
 		os << "=== Regression Tree ===" << endl;
 		int sz = t.block_list.size();
-		for ( int b = 0; b < sz; b += 1 ) {
+		for ( auto b = t.block_list.begin(); b != t.block_list.end(); b++ ) {
+			Block* blc = *b;
 			os << "Block Information: " << endl <<
-				"Block base address: " << t.block_list[b]->Base_Block <<
-				"  Block average:" << t.block_list[b]->average <<
-				"  Terminal: " << t.block_list[b]->is_terminal << endl;
-			Block* blc = t.block_list[b];
-			while ( blc != nullptr ) {
-				string dirc = (blc->direction == false) ? "Left" : "Right";
-				os << blc->boundary << "Direction: " << dirc << endl;
-				blc = blc->Base_Block;
+				"Block base address: " << blc->Base_Block <<
+				"  Block average:" << blc->average <<
+				"  Terminal: " << blc->is_terminal << endl;
+			Block* t_blc = blc;
+			while ( t_blc != nullptr ) {
+				string dirc = (t_blc->direction == false) ? "Left" : "Right";
+				os << t_blc->boundary << "Direction: " << dirc << endl;
+				t_blc = t_blc->Base_Block;
 			}
 
-			Point_Utility::PrintVPoint(t.block_list[b]->data);
+			Point_Utility::PrintVPoint(blc->data);
 		}
 		return os;
 	}
@@ -168,7 +169,7 @@ private:
 	int stopping_condition = 4;
 
 	// The block list does not support the batch regression
-	vector<Block*> block_list = {};
+	list<Block*> block_list = {};
 };
 
 #endif
